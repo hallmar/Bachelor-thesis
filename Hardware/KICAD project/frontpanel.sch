@@ -1,0 +1,3008 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 23508 17718
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	10900 3700 11300 3700
+Wire Wire Line
+	11300 3700 11300 4200
+Wire Wire Line
+	11300 4200 10900 4200
+Wire Wire Line
+	11300 4200 11600 4200
+Wire Wire Line
+	10900 3300 11300 3300
+Wire Wire Line
+	11300 3300 11300 3700
+Connection ~ 11300 4200
+Text GLabel 11600 4200 2    40   BiDi ~ 0
+ATTACK
+Connection ~ 11300 3700
+Wire Wire Line
+	6500 12500 6700 12500
+Text Label 6700 12500 0    50   ~ 0
+-10V_F
+Wire Wire Line
+	3600 1100 3800 1100
+Text Label 3800 1100 0    40   ~ 0
+-10V_F
+Wire Wire Line
+	3600 3200 3700 3200
+Text Label 3700 3200 0    40   ~ 0
+-10V_F
+Wire Wire Line
+	8700 1300 8900 1300
+Text Label 8900 1300 0    40   ~ 0
+-10V_F
+Wire Wire Line
+	8800 3400 9000 3400
+Text Label 9000 3400 0    40   ~ 0
+-10V_F
+Wire Wire Line
+	8800 5000 9000 5000
+Text Label 9000 5000 0    40   ~ 0
+-10V_F
+Wire Wire Line
+	8800 7000 9000 7000
+Text Label 9000 7000 0    40   ~ 0
+-10V_F
+Wire Wire Line
+	3400 5100 3600 5100
+Text Label 3600 5100 0    40   ~ 0
+-10V_F
+Wire Wire Line
+	3600 7200 3800 7200
+Text Label 3800 7200 0    40   ~ 0
+-10V_F
+Wire Wire Line
+	8400 1600 8400 1500
+Wire Wire Line
+	8400 1600 8500 1600
+Text Label 8500 1600 0    32   ~ 0
+DEC-POT-F
+Wire Wire Line
+	6500 12300 6700 12300
+Text Label 6700 12300 0    50   ~ 0
+DEC-POT-F
+Wire Wire Line
+	9900 1600 10000 1600
+Wire Wire Line
+	10000 1600 10000 2000
+Wire Wire Line
+	10000 2000 10200 2000
+Wire Wire Line
+	9800 2000 10000 2000
+Wire Wire Line
+	10400 1600 10000 1600
+Wire Wire Line
+	10500 1200 10000 1200
+Wire Wire Line
+	10000 1200 10000 1600
+Connection ~ 10000 2000
+Connection ~ 10000 1600
+Wire Wire Line
+	8500 3700 8500 3600
+Wire Wire Line
+	8500 3700 8700 3700
+Text Label 8700 3700 0    32   ~ 0
+ATT-POT-F
+Wire Wire Line
+	6500 12200 6700 12200
+Text Label 6700 12200 0    50   ~ 0
+ATT-POT-F
+Wire Wire Line
+	10000 3700 10100 3700
+Wire Wire Line
+	10100 3700 10100 4100
+Wire Wire Line
+	10100 4100 10300 4100
+Wire Wire Line
+	10500 3700 10100 3700
+Wire Wire Line
+	10600 3300 10100 3300
+Wire Wire Line
+	10100 3300 10100 3700
+Connection ~ 10100 3700
+Wire Wire Line
+	10800 1600 11200 1600
+Wire Wire Line
+	11200 1600 11200 2100
+Wire Wire Line
+	11200 2100 10800 2100
+Wire Wire Line
+	11200 2100 11500 2100
+Wire Wire Line
+	10800 1200 11200 1200
+Wire Wire Line
+	11200 1200 11200 1600
+Connection ~ 11200 2100
+Text GLabel 11500 2100 2    40   BiDi ~ 0
+DECAY
+Connection ~ 11200 1600
+Wire Wire Line
+	8500 5300 8500 5200
+Wire Wire Line
+	8500 5300 8700 5300
+Text Label 8700 5300 0    32   ~ 0
+FM1-POT-F
+Wire Wire Line
+	6500 11800 6700 11800
+Text Label 6700 11800 0    50   ~ 0
+FM1-POT-F
+Wire Wire Line
+	10000 5300 10100 5300
+Wire Wire Line
+	10100 5300 10100 5700
+Wire Wire Line
+	10100 5700 10300 5700
+Wire Wire Line
+	9900 5700 10100 5700
+Wire Wire Line
+	10500 5300 10100 5300
+Wire Wire Line
+	10600 4900 10100 4900
+Wire Wire Line
+	10100 4900 10100 5300
+Connection ~ 10100 5700
+Connection ~ 10100 5300
+Wire Wire Line
+	8500 7300 8500 7200
+Text Label 8500 7300 0    32   ~ 0
+FM2-POT-F
+Wire Wire Line
+	6500 11900 6700 11900
+Text Label 6700 11900 0    50   ~ 0
+FM2-POT-F
+Wire Wire Line
+	10000 7300 10100 7300
+Wire Wire Line
+	10100 7300 10100 7700
+Wire Wire Line
+	10100 7700 10300 7700
+Wire Wire Line
+	9900 7700 10100 7700
+Wire Wire Line
+	10500 7300 10100 7300
+Wire Wire Line
+	10600 6900 10100 6900
+Wire Wire Line
+	10100 6900 10100 7300
+Connection ~ 10100 7700
+Connection ~ 10100 7300
+Wire Wire Line
+	10900 5300 11300 5300
+Wire Wire Line
+	11300 5300 11300 5800
+Wire Wire Line
+	11300 5800 10900 5800
+Wire Wire Line
+	11300 5800 11600 5800
+Wire Wire Line
+	10900 4900 11300 4900
+Wire Wire Line
+	11300 4900 11300 5300
+Connection ~ 11300 5800
+Text GLabel 11600 5800 2    40   BiDi ~ 0
+FM1
+Connection ~ 11300 5300
+Wire Wire Line
+	10900 7300 11300 7300
+Wire Wire Line
+	11300 7300 11300 7800
+Wire Wire Line
+	11300 7800 10900 7800
+Wire Wire Line
+	11300 7800 11600 7800
+Wire Wire Line
+	10900 6900 11300 6900
+Wire Wire Line
+	11300 6900 11300 7300
+Connection ~ 11300 7800
+Text GLabel 11600 7800 2    40   BiDi ~ 0
+FM2
+Connection ~ 11300 7300
+Wire Wire Line
+	3300 1400 3300 1300
+Text Label 3300 1400 0    32   ~ 0
+RAT1-POT-F
+Wire Wire Line
+	6500 12000 6700 12000
+Text Label 6700 12000 0    50   ~ 0
+RAT1-POT-F
+Wire Wire Line
+	4900 1400 5000 1400
+Wire Wire Line
+	5000 1400 5000 1800
+Wire Wire Line
+	5000 1800 5200 1800
+Wire Wire Line
+	4900 1800 5000 1800
+Wire Wire Line
+	5400 1400 5000 1400
+Wire Wire Line
+	5500 1000 5000 1000
+Wire Wire Line
+	5000 1000 5000 1400
+Connection ~ 5000 1800
+Connection ~ 5000 1400
+Wire Wire Line
+	3300 3500 3300 3400
+Text Label 3300 3500 0    32   ~ 0
+RAT2-POT-F
+Wire Wire Line
+	6500 12100 6700 12100
+Text Label 6700 12100 0    50   ~ 0
+RAT2-POT-F
+Wire Wire Line
+	4900 3500 5000 3500
+Wire Wire Line
+	5000 3500 5000 3900
+Wire Wire Line
+	5000 3900 5200 3900
+Wire Wire Line
+	4800 3900 5000 3900
+Wire Wire Line
+	5400 3500 5000 3500
+Wire Wire Line
+	5500 3100 5000 3100
+Wire Wire Line
+	5000 3100 5000 3500
+Connection ~ 5000 3900
+Connection ~ 5000 3500
+Wire Wire Line
+	5800 1400 6200 1400
+Wire Wire Line
+	6200 1400 6200 1900
+Wire Wire Line
+	6200 1900 5800 1900
+Wire Wire Line
+	6200 1900 6500 1900
+Wire Wire Line
+	5800 1000 6200 1000
+Wire Wire Line
+	6200 1000 6200 1400
+Connection ~ 6200 1900
+Text GLabel 6500 1900 2    40   BiDi ~ 0
+RATIO1
+Connection ~ 6200 1400
+Wire Wire Line
+	5800 3500 6200 3500
+Wire Wire Line
+	6200 3500 6200 4000
+Wire Wire Line
+	6200 4000 5800 4000
+Wire Wire Line
+	6200 4000 6500 4000
+Wire Wire Line
+	5800 3100 6200 3100
+Wire Wire Line
+	6200 3100 6200 3500
+Connection ~ 6200 4000
+Text GLabel 6500 4000 2    40   BiDi ~ 0
+RATIO2
+Connection ~ 6200 3500
+Wire Wire Line
+	9500 1600 9300 1600
+Text Label 9300 1600 2    32   ~ 0
+DEC-POT
+Wire Wire Line
+	8500 12300 8300 12300
+Text Label 8300 12300 2    50   ~ 0
+DEC-POT
+Wire Wire Line
+	9400 2000 9300 2000
+Text Label 9300 2000 2    32   ~ 0
+CV-DEC
+Wire Wire Line
+	5500 11000 5300 11000
+Text Label 5300 11000 2    50   ~ 0
+CV-DEC
+Wire Wire Line
+	9600 3700 9300 3700
+Text Label 9300 3700 2    32   ~ 0
+ATT-POT
+Wire Wire Line
+	8500 12200 8300 12200
+Text Label 8300 12200 2    50   ~ 0
+ATT-POT
+Wire Wire Line
+	9600 5300 9300 5300
+Text Label 9300 5300 2    32   ~ 0
+FM1-POT
+Wire Wire Line
+	8500 11800 8300 11800
+Text Label 8300 11800 2    50   ~ 0
+FM1-POT
+Wire Wire Line
+	9500 5700 9400 5700
+Text Label 9400 5700 2    32   ~ 0
+CV-FM1
+Wire Wire Line
+	5500 10400 5300 10400
+Text Label 5300 10400 2    50   ~ 0
+CV-FM1
+Wire Wire Line
+	9600 7300 9200 7300
+Text Label 9200 7300 2    32   ~ 0
+FM2-POT
+Wire Wire Line
+	8500 11900 8300 11900
+Text Label 8300 11900 2    50   ~ 0
+FM2-POT
+Wire Wire Line
+	9500 7700 9200 7700
+Text Label 9200 7700 2    32   ~ 0
+CV-FM2
+Wire Wire Line
+	5500 10800 5300 10800
+Text Label 5300 10800 2    50   ~ 0
+CV-FM2
+Wire Wire Line
+	8800 5700 8600 5700
+Text Label 8800 5700 0    32   ~ 0
+CV-FM1-F
+Wire Wire Line
+	3700 10400 3900 10400
+Text Label 3900 10400 0    50   ~ 0
+CV-FM1-F
+Wire Wire Line
+	8500 2000 8600 2000
+Text Label 8600 2000 0    32   ~ 0
+CV-DEC-F
+Wire Wire Line
+	3700 11000 3900 11000
+Text Label 3900 11000 0    50   ~ 0
+CV-DEC-F
+Wire Wire Line
+	8600 7700 8700 7700
+Text Label 8700 7700 0    32   ~ 0
+CV-FM2-F
+Wire Wire Line
+	3700 10800 3900 10800
+Text Label 3900 10800 0    50   ~ 0
+CV-FM2-F
+Wire Wire Line
+	4500 1400 4400 1400
+Text Label 4400 1400 2    32   ~ 0
+RAT1-POT
+Wire Wire Line
+	8500 12000 8300 12000
+Text Label 8300 12000 2    50   ~ 0
+RAT1-POT
+Wire Wire Line
+	4500 1800 4400 1800
+Text Label 4400 1800 2    32   ~ 0
+CV-RAT1
+Wire Wire Line
+	5500 10500 5300 10500
+Text Label 5300 10500 2    50   ~ 0
+CV-RAT1
+Wire Wire Line
+	3400 1800 3500 1800
+Text Label 3500 1800 0    32   ~ 0
+CV-RAT1-F
+Wire Wire Line
+	3700 10500 3900 10500
+Text Label 3900 10500 0    50   ~ 0
+CV-RAT1-F
+Wire Wire Line
+	4500 3500 4400 3500
+Text Label 4400 3500 2    32   ~ 0
+RAT2-POT
+Wire Wire Line
+	8500 12100 8300 12100
+Text Label 8300 12100 2    50   ~ 0
+RAT2-POT
+Wire Wire Line
+	4400 3900 4300 3900
+Text Label 4300 3900 2    32   ~ 0
+CV-RAT2
+Wire Wire Line
+	5500 10900 5300 10900
+Text Label 5300 10900 2    50   ~ 0
+CV-RAT2
+Wire Wire Line
+	3400 3900 3600 3900
+Text Label 3600 3900 0    32   ~ 0
+CV-RAT2-F
+Wire Wire Line
+	3700 10900 3900 10900
+Text Label 3900 10900 0    50   ~ 0
+CV-RAT2-F
+Wire Wire Line
+	14500 1300 15000 1300
+Wire Wire Line
+	14500 1800 15000 1800
+Wire Wire Line
+	10200 2200 10100 2200
+Wire Wire Line
+	10100 2200 10100 2300
+Text GLabel 10200 2200 0    10   BiDi ~ 0
+GND1
+Wire Wire Line
+	10300 4300 10200 4300
+Wire Wire Line
+	10200 4300 10200 4400
+Text GLabel 10300 4300 0    10   BiDi ~ 0
+GND1
+Wire Wire Line
+	10300 5900 10200 5900
+Wire Wire Line
+	10200 5900 10200 6000
+Text GLabel 10300 5900 0    10   BiDi ~ 0
+GND1
+Wire Wire Line
+	10300 7900 10200 7900
+Wire Wire Line
+	10200 7900 10200 8000
+Text GLabel 10300 7900 0    10   BiDi ~ 0
+GND1
+Wire Wire Line
+	5200 2000 5100 2000
+Wire Wire Line
+	5100 2000 5100 2100
+Text GLabel 5200 2000 0    10   BiDi ~ 0
+GND1
+Wire Wire Line
+	5200 4100 5100 4100
+Wire Wire Line
+	5100 4100 5100 4200
+Text GLabel 5200 4100 0    10   BiDi ~ 0
+GND1
+Wire Wire Line
+	5500 11300 5100 11300
+Text GLabel 5500 11300 0    10   BiDi ~ 0
+GND1
+Wire Wire Line
+	8500 12700 8300 12700
+Text GLabel 8500 12700 0    10   BiDi ~ 0
+GND1
+Wire Wire Line
+	8700 10000 8500 10000
+Text GLabel 8700 10000 0    10   BiDi ~ 0
+GND1
+Wire Wire Line
+	11800 11300 11800 11600
+Wire Wire Line
+	12100 11400 12100 11600
+Wire Wire Line
+	12100 11600 12300 11600
+Wire Wire Line
+	12300 11600 12300 11400
+Wire Wire Line
+	12600 11600 12300 11600
+Wire Wire Line
+	11800 11600 12100 11600
+Wire Wire Line
+	12600 11600 12600 11300
+Connection ~ 11800 11600
+Connection ~ 12300 11600
+Connection ~ 12100 11600
+Text GLabel 11800 11300 0    10   BiDi ~ 0
+GND1
+Wire Wire Line
+	5300 6000 5100 6000
+Wire Wire Line
+	5100 6000 5100 6200
+Text GLabel 5300 6000 0    10   BiDi ~ 0
+GND1
+Wire Wire Line
+	5000 8100 5000 8200
+Wire Wire Line
+	5000 8100 5100 8100
+Text GLabel 5000 8100 0    10   BiDi ~ 0
+GND1
+Wire Wire Line
+	19000 5800 19000 6000
+Text GLabel 19000 5800 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	17400 6200 17400 6800
+Text GLabel 17400 6200 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	18500 7600 19100 7600
+Text GLabel 18500 7600 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	17800 1800 17800 2100
+Text GLabel 17800 1800 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	14300 7200 14300 7400
+Text GLabel 14300 7200 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	17800 3600 17800 3700
+Wire Wire Line
+	17800 3700 17900 3700
+Wire Wire Line
+	17900 3700 17900 3600
+Wire Wire Line
+	17800 3700 17800 3800
+Connection ~ 17800 3700
+Text GLabel 17800 3600 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	20300 3900 20300 3700
+Text GLabel 20300 3900 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	3700 11300 4000 11300
+Text GLabel 3700 11300 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	6500 12700 6700 12700
+Text GLabel 6500 12700 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	6500 10000 6700 10000
+Text GLabel 6500 10000 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	8600 7800 8900 7800
+Wire Wire Line
+	8900 7800 8900 7900
+Text GLabel 8600 7800 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	8600 5800 8900 5800
+Wire Wire Line
+	8900 5800 8900 5900
+Text GLabel 8600 5800 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	8500 2100 8800 2100
+Wire Wire Line
+	8800 2100 8800 2200
+Text GLabel 8500 2100 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	3400 1900 3700 1900
+Wire Wire Line
+	3700 1900 3700 2000
+Text GLabel 3400 1900 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	3400 4000 3700 4000
+Wire Wire Line
+	3700 4000 3700 4100
+Text GLabel 3400 4000 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	3200 5900 3500 5900
+Wire Wire Line
+	3500 5900 3500 6000
+Text GLabel 3200 5900 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	3300 8000 3600 8000
+Wire Wire Line
+	3600 8000 3600 8100
+Text GLabel 3300 8000 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	16300 6000 16600 6000
+Text Label 16300 6000 2    50   ~ 0
+GATE-F
+Wire Wire Line
+	6500 12600 6700 12600
+Text Label 6700 12600 0    50   ~ 0
+GATE-F
+Wire Wire Line
+	17000 6000 17200 6000
+Wire Wire Line
+	17900 5600 17400 5600
+Wire Wire Line
+	17400 5600 17400 5800
+Wire Wire Line
+	17900 5600 17900 5400
+Wire Wire Line
+	17900 5600 18200 5600
+Connection ~ 17900 5600
+Wire Wire Line
+	18600 5600 19000 5600
+Wire Wire Line
+	3700 10100 3900 10100
+Text Label 3900 10100 0    50   ~ 0
+MIDI-IN-L-F
+Wire Wire Line
+	13500 3800 13300 3800
+Text Label 13300 3800 2    40   ~ 0
+MIDI-IN-L-F
+Wire Wire Line
+	3700 10000 3900 10000
+Text Label 3900 10000 0    50   ~ 0
+MIDI-IN-R-F
+Wire Wire Line
+	13500 3900 13300 3900
+Text Label 13300 3900 2    40   ~ 0
+MIDI-IN-R-F
+Wire Wire Line
+	3700 11200 3900 11200
+Text Label 3900 11200 0    50   ~ 0
+LEFT-OUT-F
+Wire Wire Line
+	14100 1300 13700 1300
+Text Label 13700 1300 2    66   ~ 0
+LEFT-OUT-F
+Wire Wire Line
+	3700 11100 3900 11100
+Text Label 3900 11100 0    50   ~ 0
+RIGHT-OUT-F
+Wire Wire Line
+	14100 1800 13700 1800
+Text Label 13700 1800 2    66   ~ 0
+RIGHT-OUT-F
+Wire Wire Line
+	13400 2900 13300 2900
+Text Label 13300 2900 2    56   ~ 0
+MIDI-THRU-R-F
+Wire Wire Line
+	3700 10200 3900 10200
+Text Label 3900 10200 0    50   ~ 0
+MIDI-THRU-R-F
+Wire Wire Line
+	18000 7600 18200 7600
+Wire Wire Line
+	17600 7600 17200 7600
+Text Label 17200 7600 2    56   ~ 0
+GATE-LED-F
+Wire Wire Line
+	3700 10300 3900 10300
+Text Label 3900 10300 0    50   ~ 0
+GATE-LED-F
+Wire Wire Line
+	17800 1400 17800 1200
+Text Label 17800 1200 1    56   ~ 0
+ENC-SW-F
+Wire Wire Line
+	6500 11100 6700 11100
+Text Label 6700 11100 0    50   ~ 0
+ENC-SW-F
+Wire Wire Line
+	14400 6800 14400 6700
+Wire Wire Line
+	14400 6700 14400 6500
+Wire Wire Line
+	14400 6500 14400 6400
+Wire Wire Line
+	14500 6500 14400 6500
+Wire Wire Line
+	14800 6800 14800 6700
+Wire Wire Line
+	14800 6700 14400 6700
+Connection ~ 14400 6500
+Connection ~ 14400 6700
+Wire Wire Line
+	14200 6800 14200 6700
+Wire Wire Line
+	14200 6700 14200 6500
+Wire Wire Line
+	14200 6500 14200 6400
+Wire Wire Line
+	14100 6500 14200 6500
+Wire Wire Line
+	13900 6800 13900 6700
+Wire Wire Line
+	13900 6700 14200 6700
+Connection ~ 14200 6500
+Connection ~ 14200 6700
+Wire Wire Line
+	5500 10300 5300 10300
+Text GLabel 5300 10300 0    50   BiDi ~ 0
+GATE-LED
+Wire Wire Line
+	5500 11100 5300 11100
+Text GLabel 5300 11100 0    50   BiDi ~ 0
+RIGHT-OUT
+Wire Wire Line
+	5500 11200 5300 11200
+Text GLabel 5300 11200 0    50   BiDi ~ 0
+LEFT-OUT
+Wire Wire Line
+	6500 10100 6700 10100
+Text Label 6700 10100 0    40   ~ 0
+SWITCH-F
+Wire Wire Line
+	17800 3200 17800 3100
+Wire Wire Line
+	17800 3100 17900 3100
+Wire Wire Line
+	17900 3100 17900 3200
+Wire Wire Line
+	17800 3100 17800 2900
+Connection ~ 17800 3100
+Text Label 17800 2900 1    56   ~ 0
+SWITCH-F
+Wire Wire Line
+	8700 10100 8500 10100
+Text GLabel 8500 10100 0    40   BiDi ~ 0
+SWITCH
+Wire Wire Line
+	8700 10200 8500 10200
+Text GLabel 8500 10200 0    40   BiDi ~ 0
+DC
+Wire Wire Line
+	8700 10700 8500 10700
+Text GLabel 8500 10700 0    50   BiDi ~ 0
++3.3V
+Wire Wire Line
+	8700 10900 8500 10900
+Text GLabel 8500 10900 0    50   BiDi ~ 0
+ENC-B
+Wire Wire Line
+	8700 11000 8500 11000
+Text GLabel 8500 11000 0    50   BiDi ~ 0
+ENC-A
+Wire Wire Line
+	8700 11100 8500 11100
+Text GLabel 8500 11100 0    50   BiDi ~ 0
+ENC-SW
+Wire Wire Line
+	14900 6500 15000 6500
+Wire Wire Line
+	15000 6500 15000 6300
+Text Label 15000 6300 1    56   ~ 0
+ENC-B-F
+Wire Wire Line
+	6500 10900 6700 10900
+Text Label 6700 10900 0    50   ~ 0
+ENC-B-F
+Wire Wire Line
+	13700 6500 13600 6500
+Wire Wire Line
+	13600 6500 13600 6300
+Text Label 13600 6300 1    56   ~ 0
+ENC-A-F
+Wire Wire Line
+	6500 11000 6700 11000
+Text Label 6700 11000 0    50   ~ 0
+ENC-A-F
+Wire Wire Line
+	5500 10100 5300 10100
+Text GLabel 5300 10100 0    40   BiDi ~ 0
+MIDI-RX4
+Wire Wire Line
+	5500 10200 5300 10200
+Text GLabel 5300 10200 0    40   BiDi ~ 0
+MIDI-TX
+Wire Wire Line
+	5500 10600 5300 10600
+Text GLabel 5300 10600 0    50   BiDi ~ 0
+D+
+Wire Wire Line
+	5500 10700 5300 10700
+Text GLabel 5300 10700 0    50   BiDi ~ 0
+D-
+Wire Wire Line
+	3700 10600 3900 10600
+Text GLabel 3900 10600 2    50   BiDi ~ 0
+D+_F
+Wire Wire Line
+	3700 10700 3900 10700
+Text GLabel 3900 10700 2    50   BiDi ~ 0
+D-_F
+Wire Wire Line
+	12800 4800 12800 4700
+Text Label 12800 4700 1    40   ~ 0
++3.3V_F
+Wire Wire Line
+	6500 10700 6700 10700
+Text Label 6700 10700 0    50   ~ 0
++3.3V_F
+Wire Wire Line
+	12800 5300 12800 5200
+Text Label 12800 5300 3    40   ~ 0
++3.3V_F1
+Wire Wire Line
+	14400 6000 14400 5900
+Wire Wire Line
+	14400 5900 14300 5900
+Wire Wire Line
+	14300 5900 14200 5900
+Wire Wire Line
+	14200 5900 14200 6000
+Wire Wire Line
+	14300 5900 14300 5700
+Connection ~ 14300 5900
+Text Label 14300 5700 1    56   ~ 0
++3.3V_F1
+Wire Wire Line
+	13400 2800 13300 2800
+Text Label 13300 2800 2    56   ~ 0
++3.3V_F1
+Wire Wire Line
+	20200 3700 20200 3800
+Wire Wire Line
+	20200 3800 19900 3800
+Text Label 19900 3800 2    50   ~ 0
++3.3V_F1
+Wire Wire Line
+	8500 12600 8300 12600
+Text GLabel 8300 12600 0    50   BiDi ~ 0
+GATE
+Wire Wire Line
+	6500 10200 6700 10200
+Text Label 6700 10200 0    40   ~ 0
+DC-F
+Wire Wire Line
+	20800 3700 20800 3800
+Text Label 20800 3800 3    40   ~ 0
+DC-F
+Wire Wire Line
+	5500 10000 5300 10000
+Text GLabel 5300 10000 0    40   BiDi ~ 0
+MIDI-RX5
+Wire Wire Line
+	8500 13800 8300 13800
+Text GLabel 8300 13800 0    40   BiDi ~ 0
++12V
+Wire Wire Line
+	8500 12500 8300 12500
+Text GLabel 8300 12500 0    50   BiDi ~ 0
+-10V
+Wire Wire Line
+	3100 5300 3100 5400
+Text Label 3100 5400 0    40   ~ 0
+CTL1-POT-F
+Wire Wire Line
+	6500 10600 6700 10600
+Text Label 6700 10600 0    40   ~ 0
+CTL1-POT-F
+Wire Wire Line
+	3200 5800 3400 5800
+Text Label 3400 5800 0    40   ~ 0
+CV-CTL1-F
+Wire Wire Line
+	6500 12400 6700 12400
+Text Label 6700 12400 0    50   ~ 0
+CV-CTL1-F
+Wire Wire Line
+	4800 5400 5100 5400
+Wire Wire Line
+	4800 5800 5100 5800
+Wire Wire Line
+	5100 5800 5300 5800
+Wire Wire Line
+	5100 5400 5100 5800
+Wire Wire Line
+	5100 5400 5300 5400
+Wire Wire Line
+	5300 5100 5100 5100
+Wire Wire Line
+	5100 5100 5100 5400
+Connection ~ 5100 5800
+Connection ~ 5100 5400
+Wire Wire Line
+	4400 5400 4200 5400
+Text Label 4200 5400 2    40   ~ 0
+CTL1-POT
+Wire Wire Line
+	8700 10600 8500 10600
+Text Label 8500 10600 2    40   ~ 0
+CTL1-POT
+Wire Wire Line
+	4400 5800 4200 5800
+Text Label 4200 5800 2    40   ~ 0
+CV-CTL1
+Wire Wire Line
+	8500 12400 8300 12400
+Text Label 8300 12400 2    50   ~ 0
+CV-CTL1
+Wire Wire Line
+	5600 5100 6000 5100
+Wire Wire Line
+	6000 5100 6000 5400
+Wire Wire Line
+	6000 5400 5700 5400
+Wire Wire Line
+	6000 5400 6000 5900
+Wire Wire Line
+	6000 5900 5900 5900
+Wire Wire Line
+	6700 5900 6000 5900
+Text GLabel 6700 5900 2    40   BiDi ~ 0
+CONTROL1
+Connection ~ 6000 5400
+Connection ~ 6000 5900
+Wire Wire Line
+	4700 7500 4900 7500
+Wire Wire Line
+	4900 7500 4900 7900
+Wire Wire Line
+	4700 7900 4900 7900
+Wire Wire Line
+	5300 7500 4900 7500
+Wire Wire Line
+	5400 7100 4900 7100
+Wire Wire Line
+	4900 7100 4900 7500
+Wire Wire Line
+	4900 7900 5100 7900
+Connection ~ 4900 7500
+Connection ~ 4900 7900
+Wire Wire Line
+	3300 7500 3300 7400
+Text Label 3300 7500 0    32   ~ 0
+CTL2-POT-F
+Wire Wire Line
+	6500 13600 6700 13600
+Text Label 6700 13600 0    40   ~ 0
+CTL2-POT-F
+Wire Wire Line
+	4300 7500 4000 7500
+Text Label 4000 7500 2    32   ~ 0
+CTL2-POT
+Wire Wire Line
+	8500 13600 8300 13600
+Text Label 8300 13600 2    40   ~ 0
+CTL2-POT
+Wire Wire Line
+	3300 7900 3400 7900
+Text Label 3400 7900 0    32   ~ 0
+CV-CTL2-F
+Wire Wire Line
+	6500 13700 6700 13700
+Text Label 6700 13700 0    40   ~ 0
+CV-CTL2-F
+Wire Wire Line
+	4300 7900 4000 7900
+Text Label 4000 7900 2    32   ~ 0
+CV-CTL2
+Wire Wire Line
+	8500 13700 8300 13700
+Text Label 8300 13700 2    40   ~ 0
+CV-CTL2
+Wire Wire Line
+	5700 7500 6100 7500
+Wire Wire Line
+	6100 7500 6100 8000
+Wire Wire Line
+	6100 8000 6400 8000
+Wire Wire Line
+	5700 7100 6100 7100
+Wire Wire Line
+	6100 7100 6100 7500
+Wire Wire Line
+	5700 8000 6100 8000
+Text GLabel 6400 8000 2    40   BiDi ~ 0
+CONTROL2
+Connection ~ 6100 7500
+Connection ~ 6100 8000
+Wire Wire Line
+	6500 13800 6700 13800
+Text GLabel 6700 13800 2    40   BiDi ~ 0
++12V-F
+Wire Wire Line
+	17900 5000 17900 4800
+Text GLabel 17900 4800 3    40   BiDi ~ 0
+5V_USB
+Wire Wire Line
+	8700 10400 8500 10400
+Text GLabel 8500 10400 0    50   BiDi ~ 0
+MOSI
+Wire Wire Line
+	8700 10800 8500 10800
+Text GLabel 8500 10800 0    40   BiDi ~ 0
+CS
+Wire Wire Line
+	6500 10800 6700 10800
+Text Label 6700 10800 0    40   ~ 0
+CS-F
+Wire Wire Line
+	21000 3700 21000 3800
+Text Label 21000 3800 3    40   ~ 0
+CS-F
+Wire Wire Line
+	6500 10400 6700 10400
+Text Label 6700 10400 0    50   ~ 0
+MOSI-F
+Wire Wire Line
+	20600 3700 20600 3800
+Text Label 20600 3800 3    40   ~ 0
+MOSI-F
+Wire Wire Line
+	8700 10500 8500 10500
+Text GLabel 8500 10500 0    40   BiDi ~ 0
+SCK
+Wire Wire Line
+	6500 10500 6700 10500
+Text Label 6700 10500 0    40   ~ 0
+SCK-F
+Wire Wire Line
+	20700 3700 20700 3800
+Text Label 20700 3800 3    40   ~ 0
+SCK-F
+Wire Wire Line
+	13900 3800 15000 3800
+Wire Wire Line
+	15000 3900 13900 3900
+Wire Wire Line
+	13800 2800 14100 2800
+Wire Wire Line
+	13800 2900 14100 2900
+Wire Wire Line
+	14500 2800 15000 2800
+Wire Wire Line
+	14500 2900 15000 2900
+Wire Wire Line
+	15000 4000 14800 4000
+Wire Wire Line
+	14800 4000 14800 4200
+Wire Wire Line
+	12100 10800 12100 10700
+Wire Wire Line
+	12100 10700 12300 10700
+Wire Wire Line
+	12300 10700 12300 10800
+Wire Wire Line
+	12600 11000 12600 10700
+Wire Wire Line
+	12600 10700 12300 10700
+Wire Wire Line
+	11800 11000 11800 10700
+Wire Wire Line
+	11800 10700 12100 10700
+Wire Wire Line
+	11800 10700 11600 10700
+Connection ~ 12300 10700
+Connection ~ 12100 10700
+Connection ~ 11800 10700
+Text GLabel 11600 10700 0    40   BiDi ~ 0
++3.3V-REG
+$Comp
+L fjöl-eagle-import:OLED-1.3"-164-32 U$3
+U 1 1 2AECCF64
+P 21200 2900
+AR Path="/2AECCF64" Ref="U$3"  Part="1" 
+AR Path="/5FECF0C2/2AECCF64" Ref="U$3"  Part="1" 
+F 0 "U$3" V 21930 2580 59  0000 L BNN
+F 1 "OLED-1.3\"-164-32" V 20530 2070 59  0000 L BNN
+F 2 "fjöl:OLED-1.3_-164-32" H 21200 2900 50  0001 C CNN
+F 3 "" H 21200 2900 50  0001 C CNN
+	1    21200 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fjöl-eagle-import:EC12E_SW SW1
+U 1 1 13E8CF2B
+P 14300 7100
+AR Path="/13E8CF2B" Ref="SW1"  Part="1" 
+AR Path="/5FECF0C2/13E8CF2B" Ref="SW1"  Part="1" 
+F 0 "SW1" H 14300 7100 50  0001 C CNN
+F 1 "EC12E_SW" V 14550 7100 42  0001 L BNN
+F 2 "fjöl:ALPS_EC12E_SW" H 14300 7100 50  0001 C CNN
+F 3 "" H 14300 7100 50  0001 C CNN
+	1    14300 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:EC12E_SW SW1
+U 2 1 13E8CF27
+P 17800 1600
+AR Path="/13E8CF27" Ref="SW1"  Part="2" 
+AR Path="/5FECF0C2/13E8CF27" Ref="SW1"  Part="2" 
+F 0 "SW1" H 17800 1600 50  0001 C CNN
+F 1 "EC12E_SW" V 17600 1200 42  0001 L BNN
+F 2 "fjöl:ALPS_EC12E_SW" H 17800 1600 50  0001 C CNN
+F 3 "" H 17800 1600 50  0001 C CNN
+	2    17800 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fjöl-eagle-import:9MM_SNAP-IN_POT_ DECAY
+U 1 1 973B927E
+P 8400 1300
+AR Path="/973B927E" Ref="DECAY"  Part="1" 
+AR Path="/5FECF0C2/973B927E" Ref="DECAY1"  Part="1" 
+F 0 "DECAY1" V 8200 1200 59  0000 L BNN
+F 1 "50k-lin" V 8300 1200 59  0000 L BNN
+F 2 "fjöl:9MM_SNAP-IN_POT" H 8400 1300 50  0001 C CNN
+F 3 "" H 8400 1300 50  0001 C CNN
+	1    8400 1300
+	0    -1   1    0   
+$EndComp
+$Comp
+L fjöl-eagle-import:9MM_SNAP-IN_POT_ RATIO1
+U 1 1 E274E209
+P 3300 1100
+AR Path="/E274E209" Ref="RATIO1"  Part="1" 
+AR Path="/5FECF0C2/E274E209" Ref="RATIO1"  Part="1" 
+F 0 "RATIO1" V 3100 1000 59  0000 L BNN
+F 1 "50k-lin" V 3200 1000 59  0000 L BNN
+F 2 "fjöl:9MM_SNAP-IN_POT" H 3300 1100 50  0001 C CNN
+F 3 "" H 3300 1100 50  0001 C CNN
+	1    3300 1100
+	0    -1   1    0   
+$EndComp
+$Comp
+L fjöl-eagle-import:9MM_SNAP-IN_POT_ RATIO2
+U 1 1 44BDF11D
+P 3300 3200
+AR Path="/44BDF11D" Ref="RATIO2"  Part="1" 
+AR Path="/5FECF0C2/44BDF11D" Ref="RATIO2"  Part="1" 
+F 0 "RATIO2" V 3100 3100 59  0000 L BNN
+F 1 "50k-lin" V 3200 3100 59  0000 L BNN
+F 2 "fjöl:9MM_SNAP-IN_POT" H 3300 3200 50  0001 C CNN
+F 3 "" H 3300 3200 50  0001 C CNN
+	1    3300 3200
+	0    -1   1    0   
+$EndComp
+$Comp
+L fjöl-eagle-import:9MM_SNAP-IN_POT_ FM1
+U 1 1 945031F1
+P 8500 5000
+AR Path="/945031F1" Ref="FM1"  Part="1" 
+AR Path="/5FECF0C2/945031F1" Ref="FM1"  Part="1" 
+F 0 "FM1" V 8300 4900 59  0000 L BNN
+F 1 "50k-lin" V 8400 4900 59  0000 L BNN
+F 2 "fjöl:9MM_SNAP-IN_POT" H 8500 5000 50  0001 C CNN
+F 3 "" H 8500 5000 50  0001 C CNN
+	1    8500 5000
+	0    -1   1    0   
+$EndComp
+$Comp
+L fjöl-eagle-import:9MM_SNAP-IN_POT_ FM2
+U 1 1 8883C373
+P 8500 7000
+AR Path="/8883C373" Ref="FM2"  Part="1" 
+AR Path="/5FECF0C2/8883C373" Ref="FM2"  Part="1" 
+F 0 "FM2" V 8300 6900 59  0000 L BNN
+F 1 "50k-lin" V 8400 6900 59  0000 L BNN
+F 2 "fjöl:9MM_SNAP-IN_POT" H 8500 7000 50  0001 C CNN
+F 3 "" H 8500 7000 50  0001 C CNN
+	1    8500 7000
+	0    -1   1    0   
+$EndComp
+$Comp
+L fjöl-eagle-import:THONKI-STEREO MIDI-IN
+U 1 1 E3D34E45
+P 15200 3900
+AR Path="/E3D34E45" Ref="MIDI-IN"  Part="1" 
+AR Path="/5FECF0C2/E3D34E45" Ref="MIDI-IN1"  Part="1" 
+F 0 "MIDI-IN1" H 14600 3820 59  0000 L BNN
+F 1 "THONKI-STEREO" H 15000 3700 59  0000 L BNN
+F 2 "fjöl:WQP-PJ366ST_JACK" H 15200 3900 50  0001 C CNN
+F 3 "" H 15200 3900 50  0001 C CNN
+	1    15200 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L fjöl-eagle-import:THONKICONNNEW CV-RAT1
+U 1 1 2702B6F9
+P 3200 1900
+AR Path="/2702B6F9" Ref="CV-RAT1"  Part="1" 
+AR Path="/5FECF0C2/2702B6F9" Ref="CV-RAT1"  Part="1" 
+F 0 "CV-RAT1" H 3100 2060 59  0000 L BNN
+F 1 "THONKICONNNEW" H 3200 1900 50  0001 C CNN
+F 2 "fjöl:WQP-PJ301M-12_JACK" H 3200 1900 50  0001 C CNN
+F 3 "" H 3200 1900 50  0001 C CNN
+	1    3200 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:THONKI-STEREO MIDI-THRU
+U 1 1 843871F0
+P 15200 2900
+AR Path="/843871F0" Ref="MIDI-THRU"  Part="1" 
+AR Path="/5FECF0C2/843871F0" Ref="MIDI-THRU1"  Part="1" 
+F 0 "MIDI-THRU1" H 14400 2820 59  0000 L BNN
+F 1 "THONKI-STEREO" H 15000 2700 59  0000 L BNN
+F 2 "fjöl:WQP-PJ366ST_JACK" H 15200 2900 50  0001 C CNN
+F 3 "" H 15200 2900 50  0001 C CNN
+	1    15200 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L fjöl-eagle-import:THONKICONNNEW CV-DEC
+U 1 1 B678DD64
+P 8300 2100
+AR Path="/B678DD64" Ref="CV-DEC"  Part="1" 
+AR Path="/5FECF0C2/B678DD64" Ref="CV-DEC1"  Part="1" 
+F 0 "CV-DEC1" H 8200 2260 59  0000 L BNN
+F 1 "THONKICONNNEW" H 8300 2100 50  0001 C CNN
+F 2 "fjöl:WQP-PJ301M-12_JACK" H 8300 2100 50  0001 C CNN
+F 3 "" H 8300 2100 50  0001 C CNN
+	1    8300 2100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:THONKICONNNEW CV-FM1
+U 1 1 7B4E20EA
+P 8400 5800
+AR Path="/7B4E20EA" Ref="CV-FM1"  Part="1" 
+AR Path="/5FECF0C2/7B4E20EA" Ref="CV-FM1"  Part="1" 
+F 0 "CV-FM1" H 8300 5960 59  0000 L BNN
+F 1 "THONKICONNNEW" H 8400 5800 50  0001 C CNN
+F 2 "fjöl:WQP-PJ301M-12_JACK" H 8400 5800 50  0001 C CNN
+F 3 "" H 8400 5800 50  0001 C CNN
+	1    8400 5800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:THONKICONNNEW CV-RAT2
+U 1 1 19B79F50
+P 3200 4000
+AR Path="/19B79F50" Ref="CV-RAT2"  Part="1" 
+AR Path="/5FECF0C2/19B79F50" Ref="CV-RAT2"  Part="1" 
+F 0 "CV-RAT2" H 3100 4160 59  0000 L BNN
+F 1 "THONKICONNNEW" H 3200 4000 50  0001 C CNN
+F 2 "fjöl:WQP-PJ301M-12_JACK" H 3200 4000 50  0001 C CNN
+F 3 "" H 3200 4000 50  0001 C CNN
+	1    3200 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:THONKICONNNEW CV-FM2
+U 1 1 71D078BE
+P 8400 7800
+AR Path="/71D078BE" Ref="CV-FM2"  Part="1" 
+AR Path="/5FECF0C2/71D078BE" Ref="CV-FM2"  Part="1" 
+F 0 "CV-FM2" H 8300 7960 59  0000 L BNN
+F 1 "THONKICONNNEW" H 8400 7800 50  0001 C CNN
+F 2 "fjöl:WQP-PJ301M-12_JACK" H 8400 7800 50  0001 C CNN
+F 3 "" H 8400 7800 50  0001 C CNN
+	1    8400 7800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:THONKICONNNEW LEFT-OUT
+U 1 1 3C495284
+P 15200 1400
+AR Path="/3C495284" Ref="LEFT-OUT"  Part="1" 
+AR Path="/5FECF0C2/3C495284" Ref="LEFT-OUT1"  Part="1" 
+F 0 "LEFT-OUT1" H 15500 1360 59  0000 L BNN
+F 1 "THONKICONNNEW" H 15200 1400 50  0001 C CNN
+F 2 "fjöl:WQP-PJ301M-12_JACK" H 15200 1400 50  0001 C CNN
+F 3 "" H 15200 1400 50  0001 C CNN
+	1    15200 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:THONKICONNNEW GATE-OUT
+U 1 1 345E2DAF
+P 19200 5700
+AR Path="/345E2DAF" Ref="GATE-OUT"  Part="1" 
+AR Path="/5FECF0C2/345E2DAF" Ref="GATE-OUT1"  Part="1" 
+F 0 "GATE-OUT1" H 19100 5860 59  0000 L BNN
+F 1 "THONKICONNNEW" H 19200 5700 50  0001 C CNN
+F 2 "fjöl:WQP-PJ301M-12_JACK" H 19200 5700 50  0001 C CNN
+F 3 "" H 19200 5700 50  0001 C CNN
+	1    19200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:THONKICONNNEW RIGHT-OUT
+U 1 1 9F7A8836
+P 15200 1900
+AR Path="/9F7A8836" Ref="RIGHT-OUT"  Part="1" 
+AR Path="/5FECF0C2/9F7A8836" Ref="RIGHT-OUT1"  Part="1" 
+F 0 "RIGHT-OUT1" H 15500 1860 59  0000 L BNN
+F 1 "THONKICONNNEW" H 15200 1900 50  0001 C CNN
+F 2 "fjöl:WQP-PJ301M-12_JACK" H 15200 1900 50  0001 C CNN
+F 3 "" H 15200 1900 50  0001 C CNN
+	1    15200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:9MM_SNAP-IN_POT_ ATTACK
+U 1 1 AF4DB429
+P 8500 3400
+AR Path="/AF4DB429" Ref="ATTACK"  Part="1" 
+AR Path="/5FECF0C2/AF4DB429" Ref="ATTACK1"  Part="1" 
+F 0 "ATTACK1" V 8300 3300 59  0000 L BNN
+F 1 "50k-lin" V 8400 3300 59  0000 R BNN
+F 2 "fjöl:9MM_SNAP-IN_POT" H 8500 3400 50  0001 C CNN
+F 3 "" H 8500 3400 50  0001 C CNN
+	1    8500 3400
+	0    -1   1    0   
+$EndComp
+$Comp
+L fjöl-eagle-import:10-XX S1
+U 1 1 CB7C1894
+P 17800 3400
+AR Path="/CB7C1894" Ref="S1"  Part="1" 
+AR Path="/5FECF0C2/CB7C1894" Ref="S1"  Part="1" 
+F 0 "S1" V 17600 3450 59  0000 R TNN
+F 1 "10-XX" V 17650 3525 59  0000 L BNN
+F 2 "fjöl:B3F-10XX" H 17800 3400 50  0001 C CNN
+F 3 "" H 17800 3400 50  0001 C CNN
+	1    17800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R25
+U 1 1 11E8ACD0
+P 9700 1600
+AR Path="/11E8ACD0" Ref="R25"  Part="1" 
+AR Path="/5FECF0C2/11E8ACD0" Ref="R25"  Part="1" 
+F 0 "R25" H 9650 1659 59  0000 L BNN
+F 1 "200k" H 9650 1470 59  0000 L BNN
+F 2 "fjöl:M1206" H 9700 1600 50  0001 C CNN
+F 3 "" H 9700 1600 50  0001 C CNN
+	1    9700 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R28
+U 1 1 F6CA08F5
+P 10600 1600
+AR Path="/F6CA08F5" Ref="R28"  Part="1" 
+AR Path="/5FECF0C2/F6CA08F5" Ref="R28"  Part="1" 
+F 0 "R28" H 10450 1659 59  0000 L BNN
+F 1 "66.5k" H 10450 1470 59  0000 L BNN
+F 2 "fjöl:M1206" H 10600 1600 50  0001 C CNN
+F 3 "" H 10600 1600 50  0001 C CNN
+	1    10600 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R30
+U 1 1 B614CB0B
+P 9600 2000
+AR Path="/B614CB0B" Ref="R30"  Part="1" 
+AR Path="/5FECF0C2/B614CB0B" Ref="R30"  Part="1" 
+F 0 "R30" H 9550 2059 59  0000 L BNN
+F 1 "100k" H 9550 1870 59  0000 L BNN
+F 2 "fjöl:M1206" H 9600 2000 50  0001 C CNN
+F 3 "" H 9600 2000 50  0001 C CNN
+	1    9600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:C-EUC1206 C16
+U 1 1 46BA0363
+P 10600 1200
+AR Path="/46BA0363" Ref="C16"  Part="1" 
+AR Path="/5FECF0C2/46BA0363" Ref="C16"  Part="1" 
+F 0 "C16" V 10785 1260 59  0000 L BNN
+F 1 "1n" V 10565 1000 59  0000 L BNN
+F 2 "fjöl:C1206" H 10600 1200 50  0001 C CNN
+F 3 "" H 10600 1200 50  0001 C CNN
+	1    10600 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R1
+U 1 1 D7768B26
+P 9800 3700
+AR Path="/D7768B26" Ref="R1"  Part="1" 
+AR Path="/5FECF0C2/D7768B26" Ref="R1"  Part="1" 
+F 0 "R1" H 9650 3759 59  0000 L BNN
+F 1 "200k" H 9650 3570 59  0000 L BNN
+F 2 "fjöl:M1206" H 9800 3700 50  0001 C CNN
+F 3 "" H 9800 3700 50  0001 C CNN
+	1    9800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R2
+U 1 1 B6A10756
+P 10700 3700
+AR Path="/B6A10756" Ref="R2"  Part="1" 
+AR Path="/5FECF0C2/B6A10756" Ref="R2"  Part="1" 
+F 0 "R2" H 10550 3759 59  0000 L BNN
+F 1 "66.5k" H 10550 3570 59  0000 L BNN
+F 2 "fjöl:M1206" H 10700 3700 50  0001 C CNN
+F 3 "" H 10700 3700 50  0001 C CNN
+	1    10700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:C-EUC1206 C1
+U 1 1 4440C5A4
+P 10700 3300
+AR Path="/4440C5A4" Ref="C1"  Part="1" 
+AR Path="/5FECF0C2/4440C5A4" Ref="C1"  Part="1" 
+F 0 "C1" V 10885 3260 59  0000 L BNN
+F 1 "1n" V 10665 3100 59  0000 L BNN
+F 2 "fjöl:C1206" H 10700 3300 50  0001 C CNN
+F 3 "" H 10700 3300 50  0001 C CNN
+	1    10700 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R3
+U 1 1 EFC2E270
+P 9800 5300
+AR Path="/EFC2E270" Ref="R3"  Part="1" 
+AR Path="/5FECF0C2/EFC2E270" Ref="R3"  Part="1" 
+F 0 "R3" H 9650 5359 59  0000 L BNN
+F 1 "200k" H 9650 5170 59  0000 L BNN
+F 2 "fjöl:M1206" H 9800 5300 50  0001 C CNN
+F 3 "" H 9800 5300 50  0001 C CNN
+	1    9800 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R4
+U 1 1 101A16F5
+P 10700 5300
+AR Path="/101A16F5" Ref="R4"  Part="1" 
+AR Path="/5FECF0C2/101A16F5" Ref="R4"  Part="1" 
+F 0 "R4" H 10550 5359 59  0000 L BNN
+F 1 "66.5k" H 10550 5170 59  0000 L BNN
+F 2 "fjöl:M1206" H 10700 5300 50  0001 C CNN
+F 3 "" H 10700 5300 50  0001 C CNN
+	1    10700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R5
+U 1 1 B52AF77D
+P 9700 5700
+AR Path="/B52AF77D" Ref="R5"  Part="1" 
+AR Path="/5FECF0C2/B52AF77D" Ref="R5"  Part="1" 
+F 0 "R5" H 9550 5759 59  0000 L BNN
+F 1 "100k" H 9550 5570 59  0000 L BNN
+F 2 "fjöl:M1206" H 9700 5700 50  0001 C CNN
+F 3 "" H 9700 5700 50  0001 C CNN
+	1    9700 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:C-EUC1206 C2
+U 1 1 05652761
+P 10700 4900
+AR Path="/05652761" Ref="C2"  Part="1" 
+AR Path="/5FECF0C2/05652761" Ref="C2"  Part="1" 
+F 0 "C2" V 10885 4960 59  0000 L BNN
+F 1 "1n" V 10665 4700 59  0000 L BNN
+F 2 "fjöl:C1206" H 10700 4900 50  0001 C CNN
+F 3 "" H 10700 4900 50  0001 C CNN
+	1    10700 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R9
+U 1 1 70FBA751
+P 9800 7300
+AR Path="/70FBA751" Ref="R9"  Part="1" 
+AR Path="/5FECF0C2/70FBA751" Ref="R9"  Part="1" 
+F 0 "R9" H 9650 7359 59  0000 L BNN
+F 1 "200k" H 9650 7170 59  0000 L BNN
+F 2 "fjöl:M1206" H 9800 7300 50  0001 C CNN
+F 3 "" H 9800 7300 50  0001 C CNN
+	1    9800 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R10
+U 1 1 B06D6C61
+P 10700 7300
+AR Path="/B06D6C61" Ref="R10"  Part="1" 
+AR Path="/5FECF0C2/B06D6C61" Ref="R10"  Part="1" 
+F 0 "R10" H 10550 7359 59  0000 L BNN
+F 1 "66.5k" H 10550 7170 59  0000 L BNN
+F 2 "fjöl:M1206" H 10700 7300 50  0001 C CNN
+F 3 "" H 10700 7300 50  0001 C CNN
+	1    10700 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R11
+U 1 1 80A6A8DE
+P 9700 7700
+AR Path="/80A6A8DE" Ref="R11"  Part="1" 
+AR Path="/5FECF0C2/80A6A8DE" Ref="R11"  Part="1" 
+F 0 "R11" H 9550 7759 59  0000 L BNN
+F 1 "100k" H 9550 7570 59  0000 L BNN
+F 2 "fjöl:M1206" H 9700 7700 50  0001 C CNN
+F 3 "" H 9700 7700 50  0001 C CNN
+	1    9700 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:C-EUC1206 C4
+U 1 1 81BDFA5C
+P 10700 6900
+AR Path="/81BDFA5C" Ref="C4"  Part="1" 
+AR Path="/5FECF0C2/81BDFA5C" Ref="C4"  Part="1" 
+F 0 "C4" V 10885 6860 59  0000 L BNN
+F 1 "1n" V 10665 6700 59  0000 L BNN
+F 2 "fjöl:C1206" H 10700 6900 50  0001 C CNN
+F 3 "" H 10700 6900 50  0001 C CNN
+	1    10700 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R6
+U 1 1 E51D7956
+P 4700 1400
+AR Path="/E51D7956" Ref="R6"  Part="1" 
+AR Path="/5FECF0C2/E51D7956" Ref="R6"  Part="1" 
+F 0 "R6" H 4550 1459 59  0000 L BNN
+F 1 "200k" H 4550 1270 59  0000 L BNN
+F 2 "fjöl:M1206" H 4700 1400 50  0001 C CNN
+F 3 "" H 4700 1400 50  0001 C CNN
+	1    4700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R7
+U 1 1 4B2A0A4F
+P 5600 1400
+AR Path="/4B2A0A4F" Ref="R7"  Part="1" 
+AR Path="/5FECF0C2/4B2A0A4F" Ref="R7"  Part="1" 
+F 0 "R7" H 5450 1459 59  0000 L BNN
+F 1 "66.5k" H 5450 1270 59  0000 L BNN
+F 2 "fjöl:M1206" H 5600 1400 50  0001 C CNN
+F 3 "" H 5600 1400 50  0001 C CNN
+	1    5600 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R8
+U 1 1 53586E52
+P 4700 1800
+AR Path="/53586E52" Ref="R8"  Part="1" 
+AR Path="/5FECF0C2/53586E52" Ref="R8"  Part="1" 
+F 0 "R8" H 4550 1859 59  0000 L BNN
+F 1 "100k" H 4550 1670 59  0000 L BNN
+F 2 "fjöl:M1206" H 4700 1800 50  0001 C CNN
+F 3 "" H 4700 1800 50  0001 C CNN
+	1    4700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:C-EUC1206 C3
+U 1 1 2D3BF1AA
+P 5600 1000
+AR Path="/2D3BF1AA" Ref="C3"  Part="1" 
+AR Path="/5FECF0C2/2D3BF1AA" Ref="C3"  Part="1" 
+F 0 "C3" V 5785 960 59  0000 L BNN
+F 1 "1n" V 5565 800 59  0000 L BNN
+F 2 "fjöl:C1206" H 5600 1000 50  0001 C CNN
+F 3 "" H 5600 1000 50  0001 C CNN
+	1    5600 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fjöl-eagle-import:MCP6004_SMD IC8
+U 1 1 6E0F6B63
+P 5500 4000
+AR Path="/6E0F6B63" Ref="IC8"  Part="1" 
+AR Path="/5FECF0C2/6E0F6B63" Ref="IC8"  Part="1" 
+F 0 "IC8" H 5600 4125 59  0001 L BNN
+F 1 "TL074" H 5300 3700 59  0001 L BNN
+F 2 "fjöl:SO14" H 5500 4000 50  0001 C CNN
+F 3 "" H 5500 4000 50  0001 C CNN
+	1    5500 4000
+	1    0    0    1   
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R12
+U 1 1 6D04526F
+P 4700 3500
+AR Path="/6D04526F" Ref="R12"  Part="1" 
+AR Path="/5FECF0C2/6D04526F" Ref="R12"  Part="1" 
+F 0 "R12" H 4550 3559 59  0000 L BNN
+F 1 "200k" H 4550 3370 59  0000 L BNN
+F 2 "fjöl:M1206" H 4700 3500 50  0001 C CNN
+F 3 "" H 4700 3500 50  0001 C CNN
+	1    4700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R13
+U 1 1 97E51FD2
+P 5600 3500
+AR Path="/97E51FD2" Ref="R13"  Part="1" 
+AR Path="/5FECF0C2/97E51FD2" Ref="R13"  Part="1" 
+F 0 "R13" H 5450 3559 59  0000 L BNN
+F 1 "66.5k" H 5450 3370 59  0000 L BNN
+F 2 "fjöl:M1206" H 5600 3500 50  0001 C CNN
+F 3 "" H 5600 3500 50  0001 C CNN
+	1    5600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R14
+U 1 1 BE997355
+P 4600 3900
+AR Path="/BE997355" Ref="R14"  Part="1" 
+AR Path="/5FECF0C2/BE997355" Ref="R14"  Part="1" 
+F 0 "R14" H 4450 3959 59  0000 L BNN
+F 1 "100k" H 4450 3770 59  0000 L BNN
+F 2 "fjöl:M1206" H 4600 3900 50  0001 C CNN
+F 3 "" H 4600 3900 50  0001 C CNN
+	1    4600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:C-EUC1206 C5
+U 1 1 03026D90
+P 5600 3100
+AR Path="/03026D90" Ref="C5"  Part="1" 
+AR Path="/5FECF0C2/03026D90" Ref="C5"  Part="1" 
+F 0 "C5" V 5785 3060 59  0000 L BNN
+F 1 "1n" V 5565 2900 59  0000 L BNN
+F 2 "fjöl:C1206" H 5600 3100 50  0001 C CNN
+F 3 "" H 5600 3100 50  0001 C CNN
+	1    5600 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fjöl-eagle-import:MCP6004_SMD IC8
+U 2 1 6E0F6B6F
+P 5500 1900
+AR Path="/6E0F6B6F" Ref="IC8"  Part="2" 
+AR Path="/5FECF0C2/6E0F6B6F" Ref="IC8"  Part="2" 
+F 0 "IC8" H 5600 2025 59  0001 L BNN
+F 1 "TL074" H 5300 1600 59  0001 L BNN
+F 2 "fjöl:SO14" H 5500 1900 50  0001 C CNN
+F 3 "" H 5500 1900 50  0001 C CNN
+	2    5500 1900
+	1    0    0    1   
+$EndComp
+$Comp
+L fjöl-eagle-import:MCP6004_SMD IC8
+U 3 1 6E0F6B6B
+P 10600 7800
+AR Path="/6E0F6B6B" Ref="IC8"  Part="3" 
+AR Path="/5FECF0C2/6E0F6B6B" Ref="IC8"  Part="3" 
+F 0 "IC8" H 10700 7925 59  0001 L BNN
+F 1 "TL074" H 10400 7500 59  0001 L BNN
+F 2 "fjöl:SO14" H 10600 7800 50  0001 C CNN
+F 3 "" H 10600 7800 50  0001 C CNN
+	3    10600 7800
+	1    0    0    1   
+$EndComp
+$Comp
+L fjöl-eagle-import:MCP6004_SMD IC8
+U 4 1 6E0F6B77
+P 10600 5800
+AR Path="/6E0F6B77" Ref="IC8"  Part="4" 
+AR Path="/5FECF0C2/6E0F6B77" Ref="IC8"  Part="4" 
+F 0 "IC8" H 10700 5925 59  0001 L BNN
+F 1 "TL074" H 10400 5500 59  0001 L BNN
+F 2 "fjöl:SO14" H 10600 5800 50  0001 C CNN
+F 3 "" H 10600 5800 50  0001 C CNN
+	4    10600 5800
+	1    0    0    1   
+$EndComp
+$Comp
+L fjöl-eagle-import:MCP6004_SMD IC7
+U 4 1 4F6E3DFD
+P 10600 4200
+AR Path="/4F6E3DFD" Ref="IC7"  Part="4" 
+AR Path="/5FECF0C2/4F6E3DFD" Ref="IC7"  Part="4" 
+F 0 "IC7" H 10700 4325 59  0001 L BNN
+F 1 "TL074" H 10400 3900 59  0001 L BNN
+F 2 "fjöl:SO14" H 10600 4200 50  0001 C CNN
+F 3 "" H 10600 4200 50  0001 C CNN
+	4    10600 4200
+	1    0    0    1   
+$EndComp
+$Comp
+L fjöl-eagle-import:MCP6004_SMD IC7
+U 3 1 4F6E3DE1
+P 10500 2100
+AR Path="/4F6E3DE1" Ref="IC7"  Part="3" 
+AR Path="/5FECF0C2/4F6E3DE1" Ref="IC7"  Part="3" 
+F 0 "IC7" H 10600 2225 59  0001 L BNN
+F 1 "TL074" H 10300 1800 59  0001 L BNN
+F 2 "fjöl:SO14" H 10500 2100 50  0001 C CNN
+F 3 "" H 10500 2100 50  0001 C CNN
+	3    10500 2100
+	1    0    0    1   
+$EndComp
+$Comp
+L fjöl-eagle-import:GND1 #SUPPLY1
+U 1 1 9BB82FD5
+P 10100 2400
+AR Path="/9BB82FD5" Ref="#SUPPLY1"  Part="1" 
+AR Path="/5FECF0C2/9BB82FD5" Ref="#SUPPLY01"  Part="1" 
+F 0 "#SUPPLY01" H 10100 2400 50  0001 C CNN
+F 1 "GND1" H 10025 2275 59  0000 L BNN
+F 2 "" H 10100 2400 50  0001 C CNN
+F 3 "" H 10100 2400 50  0001 C CNN
+	1    10100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND1 #SUPPLY3
+U 1 1 9BCD8B80
+P 10200 4500
+AR Path="/9BCD8B80" Ref="#SUPPLY3"  Part="1" 
+AR Path="/5FECF0C2/9BCD8B80" Ref="#SUPPLY03"  Part="1" 
+F 0 "#SUPPLY03" H 10200 4500 50  0001 C CNN
+F 1 "GND1" H 10125 4375 59  0000 L BNN
+F 2 "" H 10200 4500 50  0001 C CNN
+F 3 "" H 10200 4500 50  0001 C CNN
+	1    10200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND1 #SUPPLY4
+U 1 1 0A61E534
+P 10200 6100
+AR Path="/0A61E534" Ref="#SUPPLY4"  Part="1" 
+AR Path="/5FECF0C2/0A61E534" Ref="#SUPPLY04"  Part="1" 
+F 0 "#SUPPLY04" H 10200 6100 50  0001 C CNN
+F 1 "GND1" H 10125 5975 59  0000 L BNN
+F 2 "" H 10200 6100 50  0001 C CNN
+F 3 "" H 10200 6100 50  0001 C CNN
+	1    10200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND1 #SUPPLY5
+U 1 1 64E24A77
+P 10200 8100
+AR Path="/64E24A77" Ref="#SUPPLY5"  Part="1" 
+AR Path="/5FECF0C2/64E24A77" Ref="#SUPPLY05"  Part="1" 
+F 0 "#SUPPLY05" H 10200 8100 50  0001 C CNN
+F 1 "GND1" H 10125 7975 59  0000 L BNN
+F 2 "" H 10200 8100 50  0001 C CNN
+F 3 "" H 10200 8100 50  0001 C CNN
+	1    10200 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND1 #SUPPLY6
+U 1 1 137BDED3
+P 5100 2200
+AR Path="/137BDED3" Ref="#SUPPLY6"  Part="1" 
+AR Path="/5FECF0C2/137BDED3" Ref="#SUPPLY06"  Part="1" 
+F 0 "#SUPPLY06" H 5100 2200 50  0001 C CNN
+F 1 "GND1" H 5025 2075 59  0000 L BNN
+F 2 "" H 5100 2200 50  0001 C CNN
+F 3 "" H 5100 2200 50  0001 C CNN
+	1    5100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND1 #SUPPLY7
+U 1 1 B162DFB5
+P 5100 4300
+AR Path="/B162DFB5" Ref="#SUPPLY7"  Part="1" 
+AR Path="/5FECF0C2/B162DFB5" Ref="#SUPPLY07"  Part="1" 
+F 0 "#SUPPLY07" H 5100 4300 50  0001 C CNN
+F 1 "GND1" H 5025 4175 59  0000 L BNN
+F 2 "" H 5100 4300 50  0001 C CNN
+F 3 "" H 5100 4300 50  0001 C CNN
+	1    5100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND1
+U 1 1 A7315E89
+P 8500 2300
+AR Path="/A7315E89" Ref="#GND1"  Part="1" 
+AR Path="/5FECF0C2/A7315E89" Ref="#GND01"  Part="1" 
+F 0 "#GND01" H 8500 2300 50  0001 C CNN
+F 1 "GND" H 8400 2200 59  0000 L BNN
+F 2 "" H 8500 2300 50  0001 C CNN
+F 3 "" H 8500 2300 50  0001 C CNN
+	1    8500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND6
+U 1 1 6DBAC010
+P 8600 6000
+AR Path="/6DBAC010" Ref="#GND6"  Part="1" 
+AR Path="/5FECF0C2/6DBAC010" Ref="#GND06"  Part="1" 
+F 0 "#GND06" H 8600 6000 50  0001 C CNN
+F 1 "GND" H 8500 5900 59  0000 L BNN
+F 2 "" H 8600 6000 50  0001 C CNN
+F 3 "" H 8600 6000 50  0001 C CNN
+	1    8600 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND7
+U 1 1 2E923FEC
+P 8600 8000
+AR Path="/2E923FEC" Ref="#GND7"  Part="1" 
+AR Path="/5FECF0C2/2E923FEC" Ref="#GND07"  Part="1" 
+F 0 "#GND07" H 8600 8000 50  0001 C CNN
+F 1 "GND" H 8500 7900 59  0000 L BNN
+F 2 "" H 8600 8000 50  0001 C CNN
+F 3 "" H 8600 8000 50  0001 C CNN
+	1    8600 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND8
+U 1 1 D5805D3F
+P 3400 4200
+AR Path="/D5805D3F" Ref="#GND8"  Part="1" 
+AR Path="/5FECF0C2/D5805D3F" Ref="#GND08"  Part="1" 
+F 0 "#GND08" H 3400 4200 50  0001 C CNN
+F 1 "GND" H 3300 4100 59  0000 L BNN
+F 2 "" H 3400 4200 50  0001 C CNN
+F 3 "" H 3400 4200 50  0001 C CNN
+	1    3400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND11
+U 1 1 DE30151E
+P 3400 2100
+AR Path="/DE30151E" Ref="#GND11"  Part="1" 
+AR Path="/5FECF0C2/DE30151E" Ref="#GND011"  Part="1" 
+F 0 "#GND011" H 3400 2100 50  0001 C CNN
+F 1 "GND" H 3300 2000 59  0000 L BNN
+F 2 "" H 3400 2100 50  0001 C CNN
+F 3 "" H 3400 2100 50  0001 C CNN
+	1    3400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND12
+U 1 1 E480151F
+P 15000 2100
+AR Path="/E480151F" Ref="#GND12"  Part="1" 
+AR Path="/5FECF0C2/E480151F" Ref="#GND012"  Part="1" 
+F 0 "#GND012" H 15000 2100 50  0001 C CNN
+F 1 "GND" H 14900 2000 59  0000 L BNN
+F 2 "" H 15000 2100 50  0001 C CNN
+F 3 "" H 15000 2100 50  0001 C CNN
+	1    15000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND13
+U 1 1 78C00C8D
+P 15000 1600
+AR Path="/78C00C8D" Ref="#GND13"  Part="1" 
+AR Path="/5FECF0C2/78C00C8D" Ref="#GND013"  Part="1" 
+F 0 "#GND013" H 15000 1600 50  0001 C CNN
+F 1 "GND" H 14900 1500 59  0000 L BNN
+F 2 "" H 15000 1600 50  0001 C CNN
+F 3 "" H 15000 1600 50  0001 C CNN
+	1    15000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R38
+U 1 1 7C0C794A
+P 16800 6000
+AR Path="/7C0C794A" Ref="R38"  Part="1" 
+AR Path="/5FECF0C2/7C0C794A" Ref="R38"  Part="1" 
+F 0 "R38" H 16650 6059 59  0000 L BNN
+F 1 "1k" H 16650 5870 59  0000 L BNN
+F 2 "fjöl:M1206" H 16800 6000 50  0001 C CNN
+F 3 "" H 16800 6000 50  0001 C CNN
+	1    16800 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND23
+U 1 1 AA6367B1
+P 19000 6100
+AR Path="/AA6367B1" Ref="#GND23"  Part="1" 
+AR Path="/5FECF0C2/AA6367B1" Ref="#GND023"  Part="1" 
+F 0 "#GND023" H 19000 6100 50  0001 C CNN
+F 1 "GND" H 18900 6000 59  0000 L BNN
+F 2 "" H 19000 6100 50  0001 C CNN
+F 3 "" H 19000 6100 50  0001 C CNN
+	1    19000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:BC847 T1
+U 1 1 789B478A
+P 17300 6000
+AR Path="/789B478A" Ref="T1"  Part="1" 
+AR Path="/5FECF0C2/789B478A" Ref="T1"  Part="1" 
+F 0 "T1" H 17500 6100 59  0000 L BNN
+F 1 "BC847" H 17500 6000 59  0000 L BNN
+F 2 "fjöl:SOT23" H 17300 6000 50  0001 C CNN
+F 3 "" H 17300 6000 50  0001 C CNN
+	1    17300 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND34
+U 1 1 EF30D879
+P 17400 6900
+AR Path="/EF30D879" Ref="#GND34"  Part="1" 
+AR Path="/5FECF0C2/EF30D879" Ref="#GND034"  Part="1" 
+F 0 "#GND034" H 17400 6900 50  0001 C CNN
+F 1 "GND" H 17300 6800 59  0000 L BNN
+F 2 "" H 17400 6900 50  0001 C CNN
+F 3 "" H 17400 6900 50  0001 C CNN
+	1    17400 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R39
+U 1 1 CFB6148A
+P 17900 5200
+AR Path="/CFB6148A" Ref="R39"  Part="1" 
+AR Path="/5FECF0C2/CFB6148A" Ref="R39"  Part="1" 
+F 0 "R39" V 17841 5250 59  0000 L BNN
+F 1 "10k" V 18030 5250 59  0000 L BNN
+F 2 "fjöl:M1206" H 17900 5200 50  0001 C CNN
+F 3 "" H 17900 5200 50  0001 C CNN
+	1    17900 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R40
+U 1 1 37B66ECF
+P 18400 5600
+AR Path="/37B66ECF" Ref="R40"  Part="1" 
+AR Path="/5FECF0C2/37B66ECF" Ref="R40"  Part="1" 
+F 0 "R40" H 18250 5659 59  0000 L BNN
+F 1 "1k" H 18250 5470 59  0000 L BNN
+F 2 "fjöl:M1206" H 18400 5600 50  0001 C CNN
+F 3 "" H 18400 5600 50  0001 C CNN
+	1    18400 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:LED3MM LED1
+U 1 1 84EE1AB4
+P 18300 7600
+AR Path="/84EE1AB4" Ref="LED1"  Part="1" 
+AR Path="/5FECF0C2/84EE1AB4" Ref="LED1"  Part="1" 
+F 0 "LED1" V 18440 7420 59  0000 L BNN
+F 1 "LED3MM" V 18525 7420 59  0000 L BNN
+F 2 "fjöl:LED3MM" H 18300 7600 50  0001 C CNN
+F 3 "" H 18300 7600 50  0001 C CNN
+	1    18300 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R41
+U 1 1 6A5C1756
+P 13600 2800
+AR Path="/6A5C1756" Ref="R41"  Part="1" 
+AR Path="/5FECF0C2/6A5C1756" Ref="R41"  Part="1" 
+F 0 "R41" H 13450 2859 59  0000 L BNN
+F 1 "33" H 13700 2860 59  0000 L BNN
+F 2 "fjöl:M1206" H 13600 2800 50  0001 C CNN
+F 3 "" H 13600 2800 50  0001 C CNN
+	1    13600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R42
+U 1 1 B94606C6
+P 13600 2900
+AR Path="/B94606C6" Ref="R42"  Part="1" 
+AR Path="/5FECF0C2/B94606C6" Ref="R42"  Part="1" 
+F 0 "R42" H 13380 2769 59  0000 L BNN
+F 1 "10" H 13710 2780 59  0000 L BNN
+F 2 "fjöl:M1206" H 13600 2900 50  0001 C CNN
+F 3 "" H 13600 2900 50  0001 C CNN
+	1    13600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND14
+U 1 1 A1A53D2B
+P 15000 3100
+AR Path="/A1A53D2B" Ref="#GND14"  Part="1" 
+AR Path="/5FECF0C2/A1A53D2B" Ref="#GND014"  Part="1" 
+F 0 "#GND014" H 15000 3100 50  0001 C CNN
+F 1 "GND" H 14900 3000 59  0000 L BNN
+F 2 "" H 15000 3100 50  0001 C CNN
+F 3 "" H 15000 3100 50  0001 C CNN
+	1    15000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R43
+U 1 1 C6E604C8
+P 17800 7600
+AR Path="/C6E604C8" Ref="R43"  Part="1" 
+AR Path="/5FECF0C2/C6E604C8" Ref="R43"  Part="1" 
+F 0 "R43" H 17650 7659 59  0000 L BNN
+F 1 "1k" H 17650 7470 59  0000 L BNN
+F 2 "fjöl:M1206" H 17800 7600 50  0001 C CNN
+F 3 "" H 17800 7600 50  0001 C CNN
+	1    17800 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND15
+U 1 1 37668089
+P 19200 7600
+AR Path="/37668089" Ref="#GND15"  Part="1" 
+AR Path="/5FECF0C2/37668089" Ref="#GND015"  Part="1" 
+F 0 "#GND015" H 19200 7600 50  0001 C CNN
+F 1 "GND" H 19100 7500 59  0000 L BNN
+F 2 "" H 19200 7600 50  0001 C CNN
+F 3 "" H 19200 7600 50  0001 C CNN
+	1    19200 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND16
+U 1 1 4CC6CA08
+P 17800 2200
+AR Path="/4CC6CA08" Ref="#GND16"  Part="1" 
+AR Path="/5FECF0C2/4CC6CA08" Ref="#GND016"  Part="1" 
+F 0 "#GND016" H 17800 2200 50  0001 C CNN
+F 1 "GND" H 17700 2100 59  0000 L BNN
+F 2 "" H 17800 2200 50  0001 C CNN
+F 3 "" H 17800 2200 50  0001 C CNN
+	1    17800 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND17
+U 1 1 D1FA1B5E
+P 14300 7500
+AR Path="/D1FA1B5E" Ref="#GND17"  Part="1" 
+AR Path="/5FECF0C2/D1FA1B5E" Ref="#GND017"  Part="1" 
+F 0 "#GND017" H 14300 7500 50  0001 C CNN
+F 1 "GND" H 14200 7400 59  0000 L BNN
+F 2 "" H 14300 7500 50  0001 C CNN
+F 3 "" H 14300 7500 50  0001 C CNN
+	1    14300 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND18
+U 1 1 8D801CC1
+P 17800 3900
+AR Path="/8D801CC1" Ref="#GND18"  Part="1" 
+AR Path="/5FECF0C2/8D801CC1" Ref="#GND018"  Part="1" 
+F 0 "#GND018" H 17800 3900 50  0001 C CNN
+F 1 "GND" H 17700 3800 59  0000 L BNN
+F 2 "" H 17800 3900 50  0001 C CNN
+F 3 "" H 17800 3900 50  0001 C CNN
+	1    17800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND19
+U 1 1 BFE1AC94
+P 20300 4000
+AR Path="/BFE1AC94" Ref="#GND19"  Part="1" 
+AR Path="/5FECF0C2/BFE1AC94" Ref="#GND019"  Part="1" 
+F 0 "#GND019" H 20300 4000 50  0001 C CNN
+F 1 "GND" H 20200 3900 59  0000 L BNN
+F 2 "" H 20300 4000 50  0001 C CNN
+F 3 "" H 20300 4000 50  0001 C CNN
+	1    20300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:PINHD-1X12 JP3
+U 1 1 48CD7B62
+P 6400 10500
+AR Path="/48CD7B62" Ref="JP3"  Part="1" 
+AR Path="/5FECF0C2/48CD7B62" Ref="JP3"  Part="1" 
+F 0 "JP3" H 6150 11125 59  0000 L BNN
+F 1 "PINHD-1X12" H 6150 9700 59  0000 L BNN
+F 2 "fjöl:1X12" H 6400 10500 50  0001 C CNN
+F 3 "" H 6400 10500 50  0001 C CNN
+	1    6400 10500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:PINHD-1X12 JP4
+U 1 1 24D01FBA
+P 8800 10500
+AR Path="/24D01FBA" Ref="JP4"  Part="1" 
+AR Path="/5FECF0C2/24D01FBA" Ref="JP4"  Part="1" 
+F 0 "JP4" H 8550 11125 59  0000 L BNN
+F 1 "PINHD-1X12" H 8550 9700 59  0000 L BNN
+F 2 "fjöl:1X12" H 8800 10500 50  0001 C CNN
+F 3 "" H 8800 10500 50  0001 C CNN
+	1    8800 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND1 #SUPPLY10
+U 1 1 E89B1DFB
+P 5100 6300
+AR Path="/E89B1DFB" Ref="#SUPPLY10"  Part="1" 
+AR Path="/5FECF0C2/E89B1DFB" Ref="#SUPPLY010"  Part="1" 
+F 0 "#SUPPLY010" H 5100 6300 50  0001 C CNN
+F 1 "GND1" H 5025 6175 59  0000 L BNN
+F 2 "" H 5100 6300 50  0001 C CNN
+F 3 "" H 5100 6300 50  0001 C CNN
+	1    5100 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:MCP6004_SMD IC7
+U 1 1 4F6E3DE9
+P 5600 5900
+AR Path="/4F6E3DE9" Ref="IC7"  Part="1" 
+AR Path="/5FECF0C2/4F6E3DE9" Ref="IC7"  Part="1" 
+F 0 "IC7" H 5700 6025 59  0001 L BNN
+F 1 "TL074" H 5400 6200 59  0001 L BNN
+F 2 "fjöl:SO14" H 5600 5900 50  0001 C CNN
+F 3 "" H 5600 5900 50  0001 C CNN
+	1    5600 5900
+	1    0    0    1   
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R48
+U 1 1 51DB8B02
+P 14200 6200
+AR Path="/51DB8B02" Ref="R48"  Part="1" 
+AR Path="/5FECF0C2/51DB8B02" Ref="R48"  Part="1" 
+F 0 "R48" V 14341 6250 59  0000 L BNN
+F 1 "10k" V 14230 6250 59  0000 L BNN
+F 2 "fjöl:M1206" H 14200 6200 50  0001 C CNN
+F 3 "" H 14200 6200 50  0001 C CNN
+	1    14200 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R49
+U 1 1 541E17D9
+P 14400 6200
+AR Path="/541E17D9" Ref="R49"  Part="1" 
+AR Path="/5FECF0C2/541E17D9" Ref="R49"  Part="1" 
+F 0 "R49" V 14541 5950 59  0000 L BNN
+F 1 "10k" V 14430 5950 59  0000 L BNN
+F 2 "fjöl:M1206" H 14400 6200 50  0001 C CNN
+F 3 "" H 14400 6200 50  0001 C CNN
+	1    14400 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R50
+U 1 1 700DF136
+P 14700 6500
+AR Path="/700DF136" Ref="R50"  Part="1" 
+AR Path="/5FECF0C2/700DF136" Ref="R50"  Part="1" 
+F 0 "R50" H 14750 6441 59  0000 R TNN
+F 1 "10k" H 14750 6630 59  0000 R TNN
+F 2 "fjöl:M1206" H 14700 6500 50  0001 C CNN
+F 3 "" H 14700 6500 50  0001 C CNN
+	1    14700 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R51
+U 1 1 BD40FAD8
+P 13900 6500
+AR Path="/BD40FAD8" Ref="R51"  Part="1" 
+AR Path="/5FECF0C2/BD40FAD8" Ref="R51"  Part="1" 
+F 0 "R51" H 13950 6441 59  0000 R TNN
+F 1 "10k" H 13950 6630 59  0000 R TNN
+F 2 "fjöl:M1206" H 13900 6500 50  0001 C CNN
+F 3 "" H 13900 6500 50  0001 C CNN
+	1    13900 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L fjöl-eagle-import:C-EUC1206 C30
+U 1 1 8F6DC526
+P 13900 7000
+AR Path="/8F6DC526" Ref="C30"  Part="1" 
+AR Path="/5FECF0C2/8F6DC526" Ref="C30"  Part="1" 
+F 0 "C30" H 13960 7015 59  0000 L BNN
+F 1 "10n" H 13900 6835 59  0000 L BNN
+F 2 "fjöl:C1206" H 13900 7000 50  0001 C CNN
+F 3 "" H 13900 7000 50  0001 C CNN
+	1    13900 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L fjöl-eagle-import:C-EUC1206 C31
+U 1 1 6952278E
+P 14800 7000
+AR Path="/6952278E" Ref="C31"  Part="1" 
+AR Path="/5FECF0C2/6952278E" Ref="C31"  Part="1" 
+F 0 "C31" H 14860 7015 59  0000 L BNN
+F 1 "10n" H 14800 6835 59  0000 L BNN
+F 2 "fjöl:C1206" H 14800 7000 50  0001 C CNN
+F 3 "" H 14800 7000 50  0001 C CNN
+	1    14800 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND22
+U 1 1 FBBD076C
+P 13900 7200
+AR Path="/FBBD076C" Ref="#GND22"  Part="1" 
+AR Path="/5FECF0C2/FBBD076C" Ref="#GND022"  Part="1" 
+F 0 "#GND022" H 13900 7200 50  0001 C CNN
+F 1 "GND" H 13800 7100 59  0000 L BNN
+F 2 "" H 13900 7200 50  0001 C CNN
+F 3 "" H 13900 7200 50  0001 C CNN
+	1    13900 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND24
+U 1 1 E73C58C9
+P 14800 7200
+AR Path="/E73C58C9" Ref="#GND24"  Part="1" 
+AR Path="/5FECF0C2/E73C58C9" Ref="#GND024"  Part="1" 
+F 0 "#GND024" H 14800 7200 50  0001 C CNN
+F 1 "GND" H 14700 7100 59  0000 L BNN
+F 2 "" H 14800 7200 50  0001 C CNN
+F 3 "" H 14800 7200 50  0001 C CNN
+	1    14800 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:FRAME_C_L #FRAME2
+U 1 1 BB57B2F6
+P 900 16900
+AR Path="/BB57B2F6" Ref="#FRAME2"  Part="1" 
+AR Path="/5FECF0C2/BB57B2F6" Ref="#FRAME2"  Part="1" 
+F 0 "#FRAME2" H 900 16900 50  0001 C CNN
+F 1 "FRAME_C_L" H 900 16900 50  0001 C CNN
+F 2 "" H 900 16900 50  0001 C CNN
+F 3 "" H 900 16900 50  0001 C CNN
+	1    900  16900
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:FRAME_C_L #FRAME2
+U 2 1 BB57B2FA
+P 18700 16900
+AR Path="/BB57B2FA" Ref="#FRAME2"  Part="2" 
+AR Path="/5FECF0C2/BB57B2FA" Ref="#FRAME2"  Part="2" 
+F 0 "#FRAME2" H 18700 16900 50  0001 C CNN
+F 1 "FRAME_C_L" H 18700 16900 50  0001 C CNN
+F 2 "" H 18700 16900 50  0001 C CNN
+F 3 "" H 18700 16900 50  0001 C CNN
+	2    18700 16900
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:PINHD-1X14 JP5
+U 1 1 EB76D72F
+P 5600 10600
+AR Path="/EB76D72F" Ref="JP5"  Part="1" 
+AR Path="/5FECF0C2/EB76D72F" Ref="JP5"  Part="1" 
+F 0 "JP5" H 5350 11325 59  0000 L BNN
+F 1 "PINHD-1X14" H 5350 9700 59  0000 L BNN
+F 2 "fjöl:1X14" H 5600 10600 50  0001 C CNN
+F 3 "" H 5600 10600 50  0001 C CNN
+	1    5600 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:PINHD-1X14 JP6
+U 1 1 C9C1B9CE
+P 3600 10600
+AR Path="/C9C1B9CE" Ref="JP6"  Part="1" 
+AR Path="/5FECF0C2/C9C1B9CE" Ref="JP6"  Part="1" 
+F 0 "JP6" H 3350 11325 59  0000 L BNN
+F 1 "PINHD-1X14" H 3350 9700 59  0000 L BNN
+F 2 "fjöl:1X14" H 3600 10600 50  0001 C CNN
+F 3 "" H 3600 10600 50  0001 C CNN
+	1    3600 10600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND26
+U 1 1 A5262D8C
+P 4000 11400
+AR Path="/A5262D8C" Ref="#GND26"  Part="1" 
+AR Path="/5FECF0C2/A5262D8C" Ref="#GND026"  Part="1" 
+F 0 "#GND026" H 4000 11400 50  0001 C CNN
+F 1 "GND" H 3900 11300 59  0000 L BNN
+F 2 "" H 4000 11400 50  0001 C CNN
+F 3 "" H 4000 11400 50  0001 C CNN
+	1    4000 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND1 #SUPPLY9
+U 1 1 CA6F28B8
+P 5100 11400
+AR Path="/CA6F28B8" Ref="#SUPPLY9"  Part="1" 
+AR Path="/5FECF0C2/CA6F28B8" Ref="#SUPPLY09"  Part="1" 
+F 0 "#SUPPLY09" H 5100 11400 50  0001 C CNN
+F 1 "GND1" H 5025 11275 59  0000 L BNN
+F 2 "" H 5100 11400 50  0001 C CNN
+F 3 "" H 5100 11400 50  0001 C CNN
+	1    5100 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:MA10-1 SV1
+U 1 1 6F54BB83
+P 6200 12200
+AR Path="/6F54BB83" Ref="SV1"  Part="1" 
+AR Path="/5FECF0C2/6F54BB83" Ref="SV1"  Part="1" 
+F 0 "SV1" H 6150 12830 59  0000 L BNN
+F 1 "MA10-1" H 6150 11600 59  0000 L BNN
+F 2 "fjöl:MA10-1" H 6200 12200 50  0001 C CNN
+F 3 "" H 6200 12200 50  0001 C CNN
+	1    6200 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L fjöl-eagle-import:MA10-1 SV2
+U 1 1 1FA7E1E0
+P 8800 12300
+AR Path="/1FA7E1E0" Ref="SV2"  Part="1" 
+AR Path="/5FECF0C2/1FA7E1E0" Ref="SV2"  Part="1" 
+F 0 "SV2" H 8750 12930 59  0000 L BNN
+F 1 "MA10-1" H 8750 11700 59  0000 L BNN
+F 2 "fjöl:MA10-1" H 8800 12300 50  0001 C CNN
+F 3 "" H 8800 12300 50  0001 C CNN
+	1    8800 12300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND21
+U 1 1 B6C57476
+P 6700 12800
+AR Path="/B6C57476" Ref="#GND21"  Part="1" 
+AR Path="/5FECF0C2/B6C57476" Ref="#GND021"  Part="1" 
+F 0 "#GND021" H 6700 12800 50  0001 C CNN
+F 1 "GND" H 6600 12700 59  0000 L BNN
+F 2 "" H 6700 12800 50  0001 C CNN
+F 3 "" H 6700 12800 50  0001 C CNN
+	1    6700 12800
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND1 #SUPPLY11
+U 1 1 247CF9B2
+P 8300 12800
+AR Path="/247CF9B2" Ref="#SUPPLY11"  Part="1" 
+AR Path="/5FECF0C2/247CF9B2" Ref="#SUPPLY011"  Part="1" 
+F 0 "#SUPPLY011" H 8300 12800 50  0001 C CNN
+F 1 "GND1" H 8225 12675 59  0000 L BNN
+F 2 "" H 8300 12800 50  0001 C CNN
+F 3 "" H 8300 12800 50  0001 C CNN
+	1    8300 12800
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:L-EUL2012C L3
+U 1 1 893BFEB3
+P 12800 5000
+AR Path="/893BFEB3" Ref="L3"  Part="1" 
+AR Path="/5FECF0C2/893BFEB3" Ref="L3"  Part="1" 
+F 0 "L3" V 12750 4941 59  0000 R TNN
+F 1 "BLM21PG221SN1D" V 12750 5030 59  0000 R TNN
+F 2 "fjöl:L2012C" H 12800 5000 50  0001 C CNN
+F 3 "" H 12800 5000 50  0001 C CNN
+	1    12800 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND27
+U 1 1 5F8B303C
+P 6800 10000
+AR Path="/5F8B303C" Ref="#GND27"  Part="1" 
+AR Path="/5FECF0C2/5F8B303C" Ref="#GND027"  Part="1" 
+F 0 "#GND027" H 6800 10000 50  0001 C CNN
+F 1 "GND" V 6800 9700 59  0000 L BNN
+F 2 "" H 6800 10000 50  0001 C CNN
+F 3 "" H 6800 10000 50  0001 C CNN
+	1    6800 10000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fjöl-eagle-import:GND1 #SUPPLY35
+U 1 1 A5BE3CF5
+P 8400 10000
+AR Path="/A5BE3CF5" Ref="#SUPPLY35"  Part="1" 
+AR Path="/5FECF0C2/A5BE3CF5" Ref="#SUPPLY035"  Part="1" 
+F 0 "#SUPPLY035" H 8400 10000 50  0001 C CNN
+F 1 "GND1" V 8425 9625 59  0000 L BNN
+F 2 "" H 8400 10000 50  0001 C CNN
+F 3 "" H 8400 10000 50  0001 C CNN
+	1    8400 10000
+	0    1    1    0   
+$EndComp
+$Comp
+L fjöl-eagle-import:MCP6004_SMD IC8
+U 5 1 6E0F6B73
+P 12100 11100
+AR Path="/6E0F6B73" Ref="IC8"  Part="5" 
+AR Path="/5FECF0C2/6E0F6B73" Ref="IC8"  Part="5" 
+F 0 "IC8" H 12200 11225 59  0001 L BNN
+F 1 "TL074" H 12200 10900 59  0001 L BNN
+F 2 "fjöl:SO14" H 12100 11100 50  0001 C CNN
+F 3 "" H 12100 11100 50  0001 C CNN
+	5    12100 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:MCP6004_SMD IC7
+U 5 1 4F6E3DF9
+P 12300 11100
+AR Path="/4F6E3DF9" Ref="IC7"  Part="5" 
+AR Path="/5FECF0C2/4F6E3DF9" Ref="IC7"  Part="5" 
+F 0 "IC7" H 12400 11225 59  0001 L BNN
+F 1 "TL074" H 12400 10900 59  0001 L BNN
+F 2 "fjöl:SO14" H 12300 11100 50  0001 C CNN
+F 3 "" H 12300 11100 50  0001 C CNN
+	5    12300 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:C-EUC1206 C29
+U 1 1 1F7F9279
+P 11800 11100
+AR Path="/1F7F9279" Ref="C29"  Part="1" 
+AR Path="/5FECF0C2/1F7F9279" Ref="C29"  Part="1" 
+F 0 "C29" H 11860 11115 59  0000 L BNN
+F 1 "100n" H 11800 10935 59  0000 L BNN
+F 2 "fjöl:C1206" H 11800 11100 50  0001 C CNN
+F 3 "" H 11800 11100 50  0001 C CNN
+	1    11800 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:C-EUC1206 C34
+U 1 1 5D6B14F4
+P 12600 11100
+AR Path="/5D6B14F4" Ref="C34"  Part="1" 
+AR Path="/5FECF0C2/5D6B14F4" Ref="C34"  Part="1" 
+F 0 "C34" H 12660 11115 59  0000 L BNN
+F 1 "100n" H 12600 10935 59  0000 L BNN
+F 2 "fjöl:C1206" H 12600 11100 50  0001 C CNN
+F 3 "" H 12600 11100 50  0001 C CNN
+	1    12600 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND1 #SUPPLY36
+U 1 1 3E474D52
+P 11800 11700
+AR Path="/3E474D52" Ref="#SUPPLY36"  Part="1" 
+AR Path="/5FECF0C2/3E474D52" Ref="#SUPPLY036"  Part="1" 
+F 0 "#SUPPLY036" H 11800 11700 50  0001 C CNN
+F 1 "GND1" H 11725 11575 59  0000 L BNN
+F 2 "" H 11800 11700 50  0001 C CNN
+F 3 "" H 11800 11700 50  0001 C CNN
+	1    11800 11700
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:9MM_SNAP-IN_POT_ CTL1
+U 1 1 66FFCD95
+P 3100 5100
+AR Path="/66FFCD95" Ref="CTL1"  Part="1" 
+AR Path="/5FECF0C2/66FFCD95" Ref="CTL1"  Part="1" 
+F 0 "CTL1" V 2900 5000 59  0000 L BNN
+F 1 "50k lin" V 3000 5000 59  0000 L BNN
+F 2 "fjöl:9MM_SNAP-IN_POT" H 3100 5100 50  0001 C CNN
+F 3 "" H 3100 5100 50  0001 C CNN
+	1    3100 5100
+	0    -1   1    0   
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R36
+U 1 1 E1B14B2B
+P 14300 1300
+AR Path="/E1B14B2B" Ref="R36"  Part="1" 
+AR Path="/5FECF0C2/E1B14B2B" Ref="R36"  Part="1" 
+F 0 "R36" H 14150 1359 59  0000 L BNN
+F 1 "1k" H 14400 1360 59  0000 L BNN
+F 2 "fjöl:M1206" H 14300 1300 50  0001 C CNN
+F 3 "" H 14300 1300 50  0001 C CNN
+	1    14300 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R37
+U 1 1 9B8DE1EA
+P 14300 1800
+AR Path="/9B8DE1EA" Ref="R37"  Part="1" 
+AR Path="/5FECF0C2/9B8DE1EA" Ref="R37"  Part="1" 
+F 0 "R37" H 14150 1859 59  0000 L BNN
+F 1 "1k" H 14400 1860 59  0000 L BNN
+F 2 "fjöl:M1206" H 14300 1800 50  0001 C CNN
+F 3 "" H 14300 1800 50  0001 C CNN
+	1    14300 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:THONKICONNNEW CV-CTL1
+U 1 1 902D58B6
+P 3000 5900
+AR Path="/902D58B6" Ref="CV-CTL1"  Part="1" 
+AR Path="/5FECF0C2/902D58B6" Ref="CV-CTL1"  Part="1" 
+F 0 "CV-CTL1" H 2900 6060 59  0000 L BNN
+F 1 "THONKICONNNEW" H 3000 5900 50  0001 C CNN
+F 2 "fjöl:WQP-PJ301M-12_JACK" H 3000 5900 50  0001 C CNN
+F 3 "" H 3000 5900 50  0001 C CNN
+	1    3000 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND28
+U 1 1 CA9A6C93
+P 3200 6100
+AR Path="/CA9A6C93" Ref="#GND28"  Part="1" 
+AR Path="/5FECF0C2/CA9A6C93" Ref="#GND028"  Part="1" 
+F 0 "#GND028" H 3200 6100 50  0001 C CNN
+F 1 "GND" H 3100 6000 59  0000 L BNN
+F 2 "" H 3200 6100 50  0001 C CNN
+F 3 "" H 3200 6100 50  0001 C CNN
+	1    3200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R44
+U 1 1 07134E7B
+P 4600 5400
+AR Path="/07134E7B" Ref="R44"  Part="1" 
+AR Path="/5FECF0C2/07134E7B" Ref="R44"  Part="1" 
+F 0 "R44" H 4450 5459 59  0000 L BNN
+F 1 "200k" H 4450 5270 59  0000 L BNN
+F 2 "fjöl:M1206" H 4600 5400 50  0001 C CNN
+F 3 "" H 4600 5400 50  0001 C CNN
+	1    4600 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R45
+U 1 1 4531B6C6
+P 4600 5800
+AR Path="/4531B6C6" Ref="R45"  Part="1" 
+AR Path="/5FECF0C2/4531B6C6" Ref="R45"  Part="1" 
+F 0 "R45" H 4450 5859 59  0000 L BNN
+F 1 "100k" H 4450 5670 59  0000 L BNN
+F 2 "fjöl:M1206" H 4600 5800 50  0001 C CNN
+F 3 "" H 4600 5800 50  0001 C CNN
+	1    4600 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R46
+U 1 1 7CDD1003
+P 5500 5400
+AR Path="/7CDD1003" Ref="R46"  Part="1" 
+AR Path="/5FECF0C2/7CDD1003" Ref="R46"  Part="1" 
+F 0 "R46" H 5350 5459 59  0000 L BNN
+F 1 "66.5k" H 5350 5270 59  0000 L BNN
+F 2 "fjöl:M1206" H 5500 5400 50  0001 C CNN
+F 3 "" H 5500 5400 50  0001 C CNN
+	1    5500 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:C-EUC1206 C28
+U 1 1 2530035D
+P 5400 5100
+AR Path="/2530035D" Ref="C28"  Part="1" 
+AR Path="/5FECF0C2/2530035D" Ref="C28"  Part="1" 
+F 0 "C28" V 5585 5060 59  0000 L BNN
+F 1 "1n" V 5365 4900 59  0000 L BNN
+F 2 "fjöl:C1206" H 5400 5100 50  0001 C CNN
+F 3 "" H 5400 5100 50  0001 C CNN
+	1    5400 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fjöl-eagle-import:MCP6004_SMD IC7
+U 2 1 4F6E3DE5
+P 5400 8000
+AR Path="/4F6E3DE5" Ref="IC7"  Part="2" 
+AR Path="/5FECF0C2/4F6E3DE5" Ref="IC7"  Part="2" 
+F 0 "IC7" H 5500 8125 59  0001 L BNN
+F 1 "TL074" H 5500 7800 59  0001 L BNN
+F 2 "fjöl:SO14" H 5400 8000 50  0001 C CNN
+F 3 "" H 5400 8000 50  0001 C CNN
+	2    5400 8000
+	1    0    0    1   
+$EndComp
+$Comp
+L fjöl-eagle-import:9MM_SNAP-IN_POT_ CTL2
+U 1 1 01EE9137
+P 3300 7200
+AR Path="/01EE9137" Ref="CTL2"  Part="1" 
+AR Path="/5FECF0C2/01EE9137" Ref="CTL2"  Part="1" 
+F 0 "CTL2" V 3100 7100 59  0000 L BNN
+F 1 "50k lin" V 3200 7100 59  0000 L BNN
+F 2 "fjöl:9MM_SNAP-IN_POT" H 3300 7200 50  0001 C CNN
+F 3 "" H 3300 7200 50  0001 C CNN
+	1    3300 7200
+	0    -1   1    0   
+$EndComp
+$Comp
+L fjöl-eagle-import:THONKICONNNEW CV-CTL2
+U 1 1 2376F542
+P 3100 8000
+AR Path="/2376F542" Ref="CV-CTL2"  Part="1" 
+AR Path="/5FECF0C2/2376F542" Ref="CV-CTL2"  Part="1" 
+F 0 "CV-CTL2" H 3000 8160 59  0000 L BNN
+F 1 "THONKICONNNEW" H 3100 8000 50  0001 C CNN
+F 2 "fjöl:WQP-PJ301M-12_JACK" H 3100 8000 50  0001 C CNN
+F 3 "" H 3100 8000 50  0001 C CNN
+	1    3100 8000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R47
+U 1 1 D70534D7
+P 4500 7500
+AR Path="/D70534D7" Ref="R47"  Part="1" 
+AR Path="/5FECF0C2/D70534D7" Ref="R47"  Part="1" 
+F 0 "R47" H 4350 7559 59  0000 L BNN
+F 1 "200k" H 4350 7370 59  0000 L BNN
+F 2 "fjöl:M1206" H 4500 7500 50  0001 C CNN
+F 3 "" H 4500 7500 50  0001 C CNN
+	1    4500 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R52
+U 1 1 41CC520A
+P 5500 7500
+AR Path="/41CC520A" Ref="R52"  Part="1" 
+AR Path="/5FECF0C2/41CC520A" Ref="R52"  Part="1" 
+F 0 "R52" H 5350 7559 59  0000 L BNN
+F 1 "66.5k" H 5350 7370 59  0000 L BNN
+F 2 "fjöl:M1206" H 5500 7500 50  0001 C CNN
+F 3 "" H 5500 7500 50  0001 C CNN
+	1    5500 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:R-EU_M1206 R53
+U 1 1 445087DF
+P 4500 7900
+AR Path="/445087DF" Ref="R53"  Part="1" 
+AR Path="/5FECF0C2/445087DF" Ref="R53"  Part="1" 
+F 0 "R53" H 4350 7959 59  0000 L BNN
+F 1 "100k" H 4350 7770 59  0000 L BNN
+F 2 "fjöl:M1206" H 4500 7900 50  0001 C CNN
+F 3 "" H 4500 7900 50  0001 C CNN
+	1    4500 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:C-EUC1206 C39
+U 1 1 4FAA267E
+P 5500 7100
+AR Path="/4FAA267E" Ref="C39"  Part="1" 
+AR Path="/5FECF0C2/4FAA267E" Ref="C39"  Part="1" 
+F 0 "C39" V 5685 7060 59  0000 L BNN
+F 1 "1n" V 5465 6900 59  0000 L BNN
+F 2 "fjöl:C1206" H 5500 7100 50  0001 C CNN
+F 3 "" H 5500 7100 50  0001 C CNN
+	1    5500 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fjöl-eagle-import:GND1 #SUPPLY38
+U 1 1 B628D675
+P 5000 8300
+AR Path="/B628D675" Ref="#SUPPLY38"  Part="1" 
+AR Path="/5FECF0C2/B628D675" Ref="#SUPPLY038"  Part="1" 
+F 0 "#SUPPLY038" H 5000 8300 50  0001 C CNN
+F 1 "GND1" H 4925 8175 59  0000 L BNN
+F 2 "" H 5000 8300 50  0001 C CNN
+F 3 "" H 5000 8300 50  0001 C CNN
+	1    5000 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND30
+U 1 1 2E0648C1
+P 3300 8200
+AR Path="/2E0648C1" Ref="#GND30"  Part="1" 
+AR Path="/5FECF0C2/2E0648C1" Ref="#GND030"  Part="1" 
+F 0 "#GND030" H 3300 8200 50  0001 C CNN
+F 1 "GND" H 3200 8100 59  0000 L BNN
+F 2 "" H 3300 8200 50  0001 C CNN
+F 3 "" H 3300 8200 50  0001 C CNN
+	1    3300 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:MA03-1 SV3
+U 1 1 8FCC18A4
+P 6200 13700
+AR Path="/8FCC18A4" Ref="SV3"  Part="1" 
+AR Path="/5FECF0C2/8FCC18A4" Ref="SV3"  Part="1" 
+F 0 "SV3" H 6150 13930 59  0000 L BNN
+F 1 "MA03-1" H 6150 13400 59  0000 L BNN
+F 2 "fjöl:MA03-1" H 6200 13700 50  0001 C CNN
+F 3 "" H 6200 13700 50  0001 C CNN
+	1    6200 13700
+	1    0    0    1   
+$EndComp
+$Comp
+L fjöl-eagle-import:MA03-1 SV4
+U 1 1 ED709310
+P 8800 13700
+AR Path="/ED709310" Ref="SV4"  Part="1" 
+AR Path="/5FECF0C2/ED709310" Ref="SV4"  Part="1" 
+F 0 "SV4" H 8750 13930 59  0000 L BNN
+F 1 "MA03-1" H 8750 13400 59  0000 L BNN
+F 2 "fjöl:MA03-1" H 8800 13700 50  0001 C CNN
+F 3 "" H 8800 13700 50  0001 C CNN
+	1    8800 13700
+	-1   0    0    1   
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND10
+U 1 1 EE95B960
+P 2900 1100
+AR Path="/EE95B960" Ref="#GND10"  Part="1" 
+AR Path="/5FECF0C2/EE95B960" Ref="#GND010"  Part="1" 
+F 0 "#GND010" H 2900 1100 50  0001 C CNN
+F 1 "GND" H 2800 1000 59  0000 L BNN
+F 2 "" H 2900 1100 50  0001 C CNN
+F 3 "" H 2900 1100 50  0001 C CNN
+	1    2900 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND9
+U 1 1 158B4DC7
+P 2900 3200
+AR Path="/158B4DC7" Ref="#GND9"  Part="1" 
+AR Path="/5FECF0C2/158B4DC7" Ref="#GND09"  Part="1" 
+F 0 "#GND09" H 2900 3200 50  0001 C CNN
+F 1 "GND" H 2800 3100 59  0000 L BNN
+F 2 "" H 2900 3200 50  0001 C CNN
+F 3 "" H 2900 3200 50  0001 C CNN
+	1    2900 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND2
+U 1 1 C92C8F3B
+P 2900 7200
+AR Path="/C92C8F3B" Ref="#GND2"  Part="1" 
+AR Path="/5FECF0C2/C92C8F3B" Ref="#GND02"  Part="1" 
+F 0 "#GND02" H 2900 7200 50  0001 C CNN
+F 1 "GND" H 2800 7100 59  0000 L BNN
+F 2 "" H 2900 7200 50  0001 C CNN
+F 3 "" H 2900 7200 50  0001 C CNN
+	1    2900 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND3
+U 1 1 E2B99DEF
+P 2700 5100
+AR Path="/E2B99DEF" Ref="#GND3"  Part="1" 
+AR Path="/5FECF0C2/E2B99DEF" Ref="#GND03"  Part="1" 
+F 0 "#GND03" H 2700 5100 50  0001 C CNN
+F 1 "GND" H 2600 5000 59  0000 L BNN
+F 2 "" H 2700 5100 50  0001 C CNN
+F 3 "" H 2700 5100 50  0001 C CNN
+	1    2700 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND4
+U 1 1 6AE2E73F
+P 8000 1300
+AR Path="/6AE2E73F" Ref="#GND4"  Part="1" 
+AR Path="/5FECF0C2/6AE2E73F" Ref="#GND04"  Part="1" 
+F 0 "#GND04" H 8000 1300 50  0001 C CNN
+F 1 "GND" H 7900 1200 59  0000 L BNN
+F 2 "" H 8000 1300 50  0001 C CNN
+F 3 "" H 8000 1300 50  0001 C CNN
+	1    8000 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND5
+U 1 1 6CC61BFB
+P 8100 3400
+AR Path="/6CC61BFB" Ref="#GND5"  Part="1" 
+AR Path="/5FECF0C2/6CC61BFB" Ref="#GND05"  Part="1" 
+F 0 "#GND05" H 8100 3400 50  0001 C CNN
+F 1 "GND" H 8000 3300 59  0000 L BNN
+F 2 "" H 8100 3400 50  0001 C CNN
+F 3 "" H 8100 3400 50  0001 C CNN
+	1    8100 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND20
+U 1 1 9DCBE17A
+P 8100 5000
+AR Path="/9DCBE17A" Ref="#GND20"  Part="1" 
+AR Path="/5FECF0C2/9DCBE17A" Ref="#GND020"  Part="1" 
+F 0 "#GND020" H 8100 5000 50  0001 C CNN
+F 1 "GND" H 8000 4900 59  0000 L BNN
+F 2 "" H 8100 5000 50  0001 C CNN
+F 3 "" H 8100 5000 50  0001 C CNN
+	1    8100 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND29
+U 1 1 8A96440D
+P 8100 7000
+AR Path="/8A96440D" Ref="#GND29"  Part="1" 
+AR Path="/5FECF0C2/8A96440D" Ref="#GND029"  Part="1" 
+F 0 "#GND029" H 8100 7000 50  0001 C CNN
+F 1 "GND" H 8000 6900 59  0000 L BNN
+F 2 "" H 8100 7000 50  0001 C CNN
+F 3 "" H 8100 7000 50  0001 C CNN
+	1    8100 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L fjöl-eagle-import:L-EUL2012C L4
+U 1 1 1C7CA5BF
+P 13700 3800
+AR Path="/1C7CA5BF" Ref="L4"  Part="1" 
+AR Path="/5FECF0C2/1C7CA5BF" Ref="L4"  Part="1" 
+F 0 "L4" V 13841 3830 59  0000 L BNN
+F 1 "BLM21AG102SN1D" V 13930 3390 59  0000 L BNN
+F 2 "fjöl:L2012C" H 13700 3800 50  0001 C CNN
+F 3 "" H 13700 3800 50  0001 C CNN
+	1    13700 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fjöl-eagle-import:L-EUL2012C L5
+U 1 1 C3E4F5DA
+P 13700 3900
+AR Path="/C3E4F5DA" Ref="L5"  Part="1" 
+AR Path="/5FECF0C2/C3E4F5DA" Ref="L5"  Part="1" 
+F 0 "L5" V 13631 3930 59  0000 L BNN
+F 1 "BLM21AG102SN1D" V 13540 3480 59  0000 L BNN
+F 2 "fjöl:L2012C" H 13700 3900 50  0001 C CNN
+F 3 "" H 13700 3900 50  0001 C CNN
+	1    13700 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fjöl-eagle-import:L-EUL2012C L6
+U 1 1 E6E944A4
+P 14300 2800
+AR Path="/E6E944A4" Ref="L6"  Part="1" 
+AR Path="/5FECF0C2/E6E944A4" Ref="L6"  Part="1" 
+F 0 "L6" V 14441 2830 59  0000 L BNN
+F 1 "BLM21AG102SN1D" V 14530 2390 59  0000 L BNN
+F 2 "fjöl:L2012C" H 14300 2800 50  0001 C CNN
+F 3 "" H 14300 2800 50  0001 C CNN
+	1    14300 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fjöl-eagle-import:L-EUL2012C L7
+U 1 1 FBE5FE56
+P 14300 2900
+AR Path="/FBE5FE56" Ref="L7"  Part="1" 
+AR Path="/5FECF0C2/FBE5FE56" Ref="L7"  Part="1" 
+F 0 "L7" V 14231 2930 59  0000 L BNN
+F 1 "BLM21AG102SN1D" V 14140 2480 59  0000 L BNN
+F 2 "fjöl:L2012C" H 14300 2900 50  0001 C CNN
+F 3 "" H 14300 2900 50  0001 C CNN
+	1    14300 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fjöl-eagle-import:C-EUC1206 C40
+U 1 1 93023D5F
+P 14800 4400
+AR Path="/93023D5F" Ref="C40"  Part="1" 
+AR Path="/5FECF0C2/93023D5F" Ref="C40"  Part="1" 
+F 0 "C40" H 14710 4295 59  0000 R TNN
+F 1 "100n" H 14710 4485 59  0000 R TNN
+F 2 "fjöl:C1206" H 14800 4400 50  0001 C CNN
+F 3 "" H 14800 4400 50  0001 C CNN
+	1    14800 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND31
+U 1 1 840E11DF
+P 14800 4600
+AR Path="/840E11DF" Ref="#GND31"  Part="1" 
+AR Path="/5FECF0C2/840E11DF" Ref="#GND031"  Part="1" 
+F 0 "#GND031" H 14800 4600 50  0001 C CNN
+F 1 "GND" H 14700 4500 59  0000 L BNN
+F 2 "" H 14800 4600 50  0001 C CNN
+F 3 "" H 14800 4600 50  0001 C CNN
+	1    14800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND32
+U 1 1 827F61D1
+P 8900 8000
+AR Path="/827F61D1" Ref="#GND32"  Part="1" 
+AR Path="/5FECF0C2/827F61D1" Ref="#GND032"  Part="1" 
+F 0 "#GND032" H 8900 8000 50  0001 C CNN
+F 1 "GND" H 8800 7900 59  0000 L BNN
+F 2 "" H 8900 8000 50  0001 C CNN
+F 3 "" H 8900 8000 50  0001 C CNN
+	1    8900 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND33
+U 1 1 B9C471F9
+P 8900 6000
+AR Path="/B9C471F9" Ref="#GND33"  Part="1" 
+AR Path="/5FECF0C2/B9C471F9" Ref="#GND033"  Part="1" 
+F 0 "#GND033" H 8900 6000 50  0001 C CNN
+F 1 "GND" H 8800 5900 59  0000 L BNN
+F 2 "" H 8900 6000 50  0001 C CNN
+F 3 "" H 8900 6000 50  0001 C CNN
+	1    8900 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND35
+U 1 1 91A07974
+P 8800 2300
+AR Path="/91A07974" Ref="#GND35"  Part="1" 
+AR Path="/5FECF0C2/91A07974" Ref="#GND035"  Part="1" 
+F 0 "#GND035" H 8800 2300 50  0001 C CNN
+F 1 "GND" H 8700 2200 59  0000 L BNN
+F 2 "" H 8800 2300 50  0001 C CNN
+F 3 "" H 8800 2300 50  0001 C CNN
+	1    8800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND36
+U 1 1 8F76D0E0
+P 3700 2100
+AR Path="/8F76D0E0" Ref="#GND36"  Part="1" 
+AR Path="/5FECF0C2/8F76D0E0" Ref="#GND036"  Part="1" 
+F 0 "#GND036" H 3700 2100 50  0001 C CNN
+F 1 "GND" H 3600 2000 59  0000 L BNN
+F 2 "" H 3700 2100 50  0001 C CNN
+F 3 "" H 3700 2100 50  0001 C CNN
+	1    3700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND37
+U 1 1 F30F9665
+P 3700 4200
+AR Path="/F30F9665" Ref="#GND37"  Part="1" 
+AR Path="/5FECF0C2/F30F9665" Ref="#GND037"  Part="1" 
+F 0 "#GND037" H 3700 4200 50  0001 C CNN
+F 1 "GND" H 3600 4100 59  0000 L BNN
+F 2 "" H 3700 4200 50  0001 C CNN
+F 3 "" H 3700 4200 50  0001 C CNN
+	1    3700 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND38
+U 1 1 2DA03382
+P 3500 6100
+AR Path="/2DA03382" Ref="#GND38"  Part="1" 
+AR Path="/5FECF0C2/2DA03382" Ref="#GND038"  Part="1" 
+F 0 "#GND038" H 3500 6100 50  0001 C CNN
+F 1 "GND" H 3400 6000 59  0000 L BNN
+F 2 "" H 3500 6100 50  0001 C CNN
+F 3 "" H 3500 6100 50  0001 C CNN
+	1    3500 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L fjöl-eagle-import:GND #GND39
+U 1 1 FF54D42F
+P 3600 8200
+AR Path="/FF54D42F" Ref="#GND39"  Part="1" 
+AR Path="/5FECF0C2/FF54D42F" Ref="#GND039"  Part="1" 
+F 0 "#GND039" H 3600 8200 50  0001 C CNN
+F 1 "GND" H 3500 8100 59  0000 L BNN
+F 2 "" H 3600 8200 50  0001 C CNN
+F 3 "" H 3600 8200 50  0001 C CNN
+	1    3600 8200
+	1    0    0    -1  
+$EndComp
+Text Notes 8000 6100 0    64   ~ 0
+0 to 5V
+Text Notes 8000 8100 0    64   ~ 0
+0 to 5V
+Text Notes 2400 8000 0    64   ~ 0
+0 to 5V
+$EndSCHEMATC
